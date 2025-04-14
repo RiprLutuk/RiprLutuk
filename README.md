@@ -12,6 +12,12 @@ I'm a passionate software engineer and database specialist with strong interests
   - Query optimization, index tuning, partitioning, replication, and backup strategies
 - 🐧 Comfortable in **Linux environments**, managing services, and automating tasks
 - 📊 Focused on **big data processing**, **ETL pipelines**, and **high-performance databases**
+- 🏢 Experienced in **Data Center Operations**, including:
+  - **Infrastructure setup & maintenance**
+  - **Firewall & Network Security (Fortigate)**
+  - **VPN Solutions (OpenVPN)**
+- ☁️ Involved in **Cloud Engineering**, deploying and scaling services with cloud-native tools
+- 🧰 Skilled in **PHP**, **C#/ASP.NET**, and **API service development**
 - 📚 Always learning and improving in areas like **distributed systems**, **system design**, and **performance tuning**
 
 ---
@@ -24,9 +30,13 @@ I'm a passionate software engineer and database specialist with strong interests
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white)
 ![.NET](https://img.shields.io/badge/.NET-512BD4?style=flat-square&logo=dotnet&logoColor=white)
 ![C#](https://img.shields.io/badge/C%23-239120?style=flat-square&logo=c-sharp&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Golang](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+![Fortigate](https://img.shields.io/badge/Fortigate-E10000?style=flat-square&logo=fortinet&logoColor=white)
+![OpenVPN](https://img.shields.io/badge/OpenVPN-F66000?style=flat-square&logo=openvpn&logoColor=white)
+![Cloud](https://img.shields.io/badge/Cloud-Engineer-00C7B7?style=flat-square&logo=cloud&logoColor=white)
 
 ---
 
@@ -46,10 +56,12 @@ I'm a passionate software engineer and database specialist with strong interests
 
 ## 🤝 Let's Collaborate
 
-I'm open to:
-- Projects related to **backend development**, **database engineering**, or **performance optimization**
-- Contributions to **open-source**, especially involving backend or infrastructure
-- Technical discussions around system design and data scalability
+I'm open to collaborate on:
+- 🧠 **Database tuning, optimization, and high-volume data processing**
+- 🖧 **Infrastructure and network architecture (on-prem or cloud)**
+- ☁️ **Cloud engineering and deployment pipelines**
+- 💻 **Backend/API development with C#/ASP.NET, Golang, or PHP**
+- 📈 **System performance monitoring and troubleshooting**
 
 ---
 
