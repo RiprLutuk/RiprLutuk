@@ -40,10 +40,7 @@ I'm a passionate software engineer and database specialist with strong interests
 
 ## 📌 Pinned Projects
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=RiprLutuk&repo=nama-repo1&theme=github_dark)](https://github.com/RiprLutuk/main-service-fdc)
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=RiprLutuk&repo=nama-repo2&theme=github_dark)](https://github.com/RiprLutuk/dashboard-service-fdc)
-
-> Ganti `nama-repo1` dan `nama-repo2` dengan repo milikmu yang ingin kamu tonjolkan ya.
+[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=RiprLutuk&repo=docker-php-81&theme=github_dark)](https://github.com/RiprLutuk/docker-php-81)
 
 ---
 
