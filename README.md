@@ -51,20 +51,6 @@ I'm a passionate Software Engineer & Database Administrator with solid experienc
 
 ---
 
-## 📊 GitHub Stats
-
-![RiprLutuk's GitHub stats](https://github-readme-stats.vercel.app/api?username=RiprLutuk&show_icons=true&theme=github_dark)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=RiprLutuk&layout=compact&theme=github_dark)
-
----
-
-## 📌 Pinned Projects
-
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=RiprLutuk&repo=docker-php-81&theme=github_dark)](https://github.com/RiprLutuk/docker-php-81)
-
----
-
 ## 🤝 Let's Collaborate
 
 I'm open to collaborations on:
