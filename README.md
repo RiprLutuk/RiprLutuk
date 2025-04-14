@@ -15,7 +15,7 @@ I'm a passionate software engineer and database specialist with strong interests
 - 🏢 Experienced in **Data Center Operations**, including:
   - **Infrastructure setup & maintenance**
   - **Firewall & Network Security (Fortigate)**
-  - **VPN Solutions (OpenVPN)**
+  - **VPN Solutions (OpenVPN, StrongSwan)**
 - ☁️ Involved in **Cloud Engineering**, deploying and scaling services with cloud-native tools
 - 🧰 Skilled in **PHP**, **C#/ASP.NET**, and **API service development**
 - 📚 Always learning and improving in areas like **distributed systems**, **system design**, and **performance tuning**
