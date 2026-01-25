@@ -5,6 +5,7 @@
 
 [![Email](https://img.shields.io/badge/Email-rizqy.pra85%40gmail.com-blue?style=flat-square&logo=gmail&logoColor=white)](mailto:rizqy.pra85@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-HERI%20RISKI%20ANTO-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riprlutuk)
+[![Telegram](https://img.shields.io/badge/Telegram-@RiprLutuk-2CA5E0?style=flat-square&logo=telegram&logoColor=white)](https://t.me/RiprLutuk)
 
 <br>
 
