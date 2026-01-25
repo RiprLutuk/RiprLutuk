@@ -3,7 +3,8 @@
 **Fullstack Engineer & Database Infrastructure Specialist**  
 *5+ Years in Fintech Data Centers | Building Scalable Systems from Scratch | ISO 27001 Implementation*
 
-[Email](mailto:rizqy.pra85@gmail.com) • [LinkedIn](https://www.linkedin.com/in/riprlutuk)
+[![Email](https://img.shields.io/badge/Email-rizqy.pra85%40gmail.com-blue?style=flat-square&logo=gmail&logoColor=white)](mailto:rizqy.pra85@gmail.com)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-HERI%20RISKI%20ANTO-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riprlutuk)
 
 <br>
 
@@ -12,13 +13,13 @@
     <td valign="top" width="55%">
       <h2>About Me</h2>
       <p>I am a <b>Fullstack Engineer</b> and <b>Infrastructure Specialist</b> with over <b>5 years of experience</b> in the Fintech industry. My career has evolved from Android Development (Java) to IT Operations, Business Analysis, and finally to building critical Data Center infrastructure from the ground up.</p>
-      <p>I have <b>5 years of deep experience with Alibaba Cloud</b> hosting Fintech infrastructure, alongside current expertise in <b>AWS</b> and <b>On-Premise</b> environments. I specialize in <b>building systems from scratch</b>—designing Data Warehousing architectures, managing internal networks (OpenVPN, Mikrotik, IPsec), and developing .NET/PHP APIs.</p>
+      <p>I specialize in <b>building systems from scratch</b>—designing Data Warehousing architectures, managing internal networks (OpenVPN, Mikrotik, IPsec), and developing .NET/PHP APIs. On the application side, I have extensive experience building <b>Custom CMS</b> and <b>Company Profile</b> applications using <b>Laravel</b>.</p>
       <p>Currently, I focus on:</p>
       <ul>
         <li><b>Infrastructure & Cloud</b>: Alibaba Cloud (5 Years), AWS, On-Premise, and GCP (Lab).</li>
         <li><b>Network Engineering</b>: Designing secure internal networks using OpenVPN, strongSwan, and Mikrotik.</li>
+        <li><b>Fullstack Development</b>: developing complex <b>Custom CMS</b> solutions with <b>Laravel</b> and integrating with native mobile apps (Java/Capacitor).</li>
         <li><b>Database Engineering</b>: Tuning high-volume ETL pipelines (PostgreSQL, Oracle, SQL Server).</li>
-        <li><b>Fullstack Development</b>: Building solutions with Native Java, Capacitor, Vanilla JS, and Tailwind CSS.</li>
       </ul>
     </td>
     <td valign="top" width="45%">
@@ -47,12 +48,12 @@
   </tr>
   <tr>
     <td><b>Halalvestor Global Asia</b></td>
-    <td><b>Fullstack Engineer & DBA</b> (Full Remote)<br>Developing core platform features and managing database performance.</td>
+    <td><b>Fullstack Engineer & DBA</b> (Full Remote)<br>Developing core platform features (Laravel/CMS) and managing database performance.</td>
     <td>Dec 2024 - Oct 2025</td>
   </tr>
   <tr>
     <td><b>Freelance</b></td>
-    <td><b>Fullstack Developer</b><br>Building custom web & mobile solutions (Capacitor/Native) and APIs.</td>
+    <td><b>Fullstack Developer</b><br>Building Custom CMS, Company Profiles, and APIs for various clients using Laravel.</td>
     <td>2020 - Present</td>
   </tr>
   <tr>
@@ -81,26 +82,48 @@
 
 <h2>Technical Skills</h2>
 
-**Languages**  
-Golang, C#, Java (Native Android), PHP, Python, Rust, Shell Script, JavaScript (Vanilla)
+### Languages
+![Golang](https://img.shields.io/badge/Golang-00ADD8?style=for-the-badge&logo=go&logoColor=white)
+![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
+![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Shell Script](https://img.shields.io/badge/Shell_Script-121011?style=for-the-badge&logo=gnu-bash&logoColor=white)
 
-**Frontend & Mobile**  
-Tailwind CSS, Capacitor, Native Android SDK
+### Frontend & Mobile
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Capacitor](https://img.shields.io/badge/Capacitor-1199EE?style=for-the-badge&logo=capacitor&logoColor=white)
+![Android](https://img.shields.io/badge/Android-3DDC84?style=for-the-badge&logo=android&logoColor=white)
 
-**Frameworks (Backend)**  
-.NET Core, Laravel
+### Frameworks (Backend)
+![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
+![.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
-**Databases**  
-PostgreSQL, Microsoft SQL Server, Oracle DB, MySQL, Redis
+### Databases & Caching
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
+![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
-**Cloud & Infrastructure**  
-**Alibaba Cloud (5+ Years)**, AWS, GCP (Lab), On-Premise, Linux (Ubuntu/CentOS), Docker, Nginx
+### Cloud & Infrastructure
+![Alibaba Cloud](https://img.shields.io/badge/Alibaba_Cloud-FF6A00?style=for-the-badge&logo=alibabacloud&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
+![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
-**Networking & Security**  
-OpenVPN, strongSwan, Mikrotik, IPsec, ISO 27001, Fortigate, System Hardening
+### Networking & Security
+![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=for-the-badge&logo=openvpn&logoColor=white)
+![Fortigate](https://img.shields.io/badge/Fortinet-EE3124?style=for-the-badge&logo=fortinet&logoColor=white)
+![ISO 27001](https://img.shields.io/badge/ISO_27001-0064A4?style=for-the-badge&logo=security&logoColor=white)
+![Mikrotik](https://img.shields.io/badge/MikroTik-B02027?style=for-the-badge&logo=mikrotik&logoColor=white)
 
-**Performance & Testing**  
-k6, Apache JMeter
+### Performance Testing
+![k6](https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white)
+![JMeter](https://img.shields.io/badge/Apache%20JMeter-D22128?style=for-the-badge&logo=apache-jmeter&logoColor=white)
 
 <br>
 
