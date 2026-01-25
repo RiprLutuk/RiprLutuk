@@ -13,13 +13,13 @@
     <td valign="top" width="55%">
       <h2>About Me</h2>
       <p>I am a <b>Fullstack Engineer</b> and <b>Infrastructure Specialist</b> with over <b>5 years of experience</b> in the Fintech industry. My career has evolved from Android Development (Java) to IT Operations, Business Analysis, and finally to building critical Data Center infrastructure from the ground up.</p>
-      <p>I specialize in <b>building systems from scratch</b>—designing Data Warehousing architectures, managing internal networks (OpenVPN, Mikrotik, IPsec), and developing .NET/PHP APIs. On the application side, I have extensive experience building <b>Custom CMS</b> and <b>Company Profile</b> applications using <b>Laravel</b>.</p>
+      <p>I specialize in <b>building systems from scratch</b>—designing Data Warehousing architectures, managing internal networks (OpenVPN, Mikrotik, IPsec), and developing .NET/PHP APIs. I have deep expertise in <b>Data Engineering</b>, specifically implementing <b>CDC (Change Data Capture)</b> pipelines using <b>Debezium & Kafka</b> (PostgreSQL ↔ Oracle) and handling complex <b>Legacy Database Migrations</b>.</p>
       <p>Currently, I focus on:</p>
       <ul>
         <li><b>Infrastructure & Cloud</b>: Alibaba Cloud (5 Years), AWS, On-Premise, and GCP (Lab).</li>
+        <li><b>Data Engineering</b>: Real-time Data Streaming with <b>Kafka & Debezium</b> and Database Migration (Oracle to PostgreSQL).</li>
+        <li><b>Fullstack Development</b>: developing complex <b>Custom CMS</b> solutions with <b>Laravel</b> and integration with native mobile apps.</li>
         <li><b>Security & Compliance</b>: Hardening systems and implementing <b>ISO 27001</b> (InfoSec) & <b>UU PDP</b> (Data Privacy Protection).</li>
-        <li><b>Fullstack Development</b>: developing complex <b>Custom CMS</b> solutions with <b>Laravel</b> and integrating with native mobile apps (Java/Capacitor).</li>
-        <li><b>Database Engineering</b>: Tuning high-volume ETL pipelines (PostgreSQL, Oracle, SQL Server).</li>
       </ul>
     </td>
     <td valign="top" width="45%">
@@ -101,11 +101,13 @@
 ![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
 ![.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
 
-### Databases & Caching
+### Databases, Streaming & CDC
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
+![SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
 ![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![Debezium](https://img.shields.io/badge/Debezium-Usage-333333?style=for-the-badge&logo=redhat&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 ### Cloud & Infrastructure
@@ -117,7 +119,7 @@
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Apache](https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white)
 
-### Security, Privacy & Compliance
+### Networking, Security & Compliance
 ![UU PDP](https://img.shields.io/badge/UU_PDP-Data_Privacy-4CAF50?style=for-the-badge&logo=shield&logoColor=white)
 ![ISO 27001](https://img.shields.io/badge/ISO_27001-InfoSec-0064A4?style=for-the-badge&logo=security&logoColor=white)
 ![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=for-the-badge&logo=openvpn&logoColor=white)
