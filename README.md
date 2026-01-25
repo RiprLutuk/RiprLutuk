@@ -48,7 +48,7 @@
   </tr>
   <tr>
     <td><b>Halalvestor Global Asia</b></td>
-    <td><b>Fullstack Engineer & DBA</b> (Full Remote)<br>Developing core platform features (Laravel/CMS) and managing database performance.</td>
+    <td><b>Fullstack Engineer & DBA</b> (Full Remote)<br>Revamping core features (Frontend/Backend) and integrating <b>Payment Gateways</b>.</td>
     <td>Dec 2024 - Oct 2025</td>
   </tr>
   <tr>
