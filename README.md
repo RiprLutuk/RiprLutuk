@@ -1,7 +1,7 @@
 # Heri Riski Anto
 
 **Fullstack Engineer & Database Infrastructure Specialist**  
-*5+ Years in Fintech Data Centers | Building Scalable Systems from Scratch | ISO 27001 Implementation*
+*5+ Years in Fintech Data Centers | Building Scalable Systems from Scratch | Open Source Enthusiast*
 
 [![Email](https://img.shields.io/badge/Email-rizqy.pra85%40gmail.com-blue?style=flat-square&logo=gmail&logoColor=white)](mailto:rizqy.pra85@gmail.com)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-HERI%20RISKI%20ANTO-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riprlutuk)
@@ -16,6 +16,7 @@
       <p>I am a <b>Fullstack Engineer</b> and <b>Infrastructure Specialist</b> with over <b>5 years of experience</b> in the Fintech industry. Currently, I serve as a <b>Database Administrator at Linknet</b> (AWS/On-Premise) and a <b>Fullstack Engineer at Halalvestor Global Asia</b> (Remote), where I revamp core features and integrate payment gateways.</p>
       <p>Previously, I led Data Management & Operations at <b>AFPI</b>, building their <b>Fintech Data Center</b> from the ground up—including Data Warehousing, internal networks, and <b>ISO 27001</b> compliance.</p>
       <p>I specialize in <b>building systems from scratch</b>, designing secure networks (OpenVPN, Mikrotik), and developing .NET/PHP APIs. I have deep expertise in <b>Data Engineering</b>, specifically implementing <b>CDC (Change Data Capture)</b> pipelines using <b>Debezium & Kafka</b> (PostgreSQL ↔ Oracle) and complex Legacy Migrations.</p>
+      <p>I am a strong advocate for <b>Open Source</b> and <b>Software Freedom</b>. I prefer building solutions that are open, transparent, and free from vendor lock-in, leveraging the power of Linux and community-driven technologies.</p>
       <p><b>Core Focus:</b></p>
       <ul>
         <li><b>Infrastructure & Cloud</b>: Alibaba Cloud (5 Years), AWS, On-Premise, GCP (Lab).</li>
@@ -92,3 +93,8 @@
 *   **DQLab**: Dasar menjadi data analyst
 *   **Spentera**: Hacking playground - pengenalan dasar hack
 *   **Dicoding**: Pemrograman dasar python
+
+<br>
+<br>
+
+> *“Talk is cheap. Show me the code.” – Linus Torvalds*
