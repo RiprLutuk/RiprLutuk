@@ -12,13 +12,13 @@
     <td valign="top" width="55%">
       <h2>About Me</h2>
       <p>I am a <b>Fullstack Engineer</b> and <b>Infrastructure Specialist</b> with over <b>5 years of experience</b> in the Fintech industry. My career has evolved from Android Development (Java) to IT Operations, Business Analysis, and finally to building critical Data Center infrastructure from the ground up.</p>
-      <p>I specialize in <b>building systems from scratch</b>—designing Data Warehousing architectures, setting up Linux/PostgreSQL servers, and developing .NET/PHP APIs for P2P lending platforms. My work includes implementing <b>ISO 27001</b> standards to ensure security and compliance.</p>
+      <p>I have <b>5 years of deep experience with Alibaba Cloud</b> hosting Fintech infrastructure, alongside current expertise in <b>AWS</b> and <b>On-Premise</b> environments. I specialize in <b>building systems from scratch</b>—designing Data Warehousing architectures, managing internal networks (OpenVPN, Mikrotik, IPsec), and developing .NET/PHP APIs.</p>
       <p>Currently, I focus on:</p>
       <ul>
-        <li><b>Infrastructure Construction</b>: Building Data Centers, Warehousing, and Monitoring Dashboards.</li>
-        <li><b>Fullstack Development</b>: Integrating backend strength (Go, .NET) with effective frontend solutions.</li>
-        <li><b>Security & Compliance</b>: Hardening systems and implementing ISO 27001.</li>
+        <li><b>Infrastructure & Cloud</b>: Alibaba Cloud (5 Years), AWS, On-Premise, and GCP (Lab).</li>
+        <li><b>Network Engineering</b>: Designing secure internal networks using OpenVPN, strongSwan, and Mikrotik.</li>
         <li><b>Database Engineering</b>: Tuning high-volume ETL pipelines (PostgreSQL, Oracle, SQL Server).</li>
+        <li><b>Fullstack Development</b>: Building solutions with Native Java, Capacitor, Vanilla JS, and Tailwind CSS.</li>
       </ul>
     </td>
     <td valign="top" width="45%">
@@ -42,7 +42,7 @@
   </tr>
   <tr>
     <td><b>Linknet</b></td>
-    <td><b>Database Administrator</b><br>Scaling and maintaining critical database infrastructure.</td>
+    <td><b>Database Administrator</b><br>Scaling and maintaining critical database infrastructure on AWS & On-Premise.</td>
     <td>Feb 2025 - Present</td>
   </tr>
   <tr>
@@ -52,12 +52,12 @@
   </tr>
   <tr>
     <td><b>Freelance</b></td>
-    <td><b>Fullstack Developer</b><br>Building custom web solutions and APIs for various clients.</td>
+    <td><b>Fullstack Developer</b><br>Building custom web & mobile solutions (Capacitor/Native) and APIs.</td>
     <td>2020 - Present</td>
   </tr>
   <tr>
     <td><b>Asosiasi Fintech Pendanaan (AFPI)</b></td>
-    <td><b>Data Management & Operations</b><br>Built Fintech Data Center infrastructure from scratch. Implemented ISO 27001, Data Warehousing (Linux, Postgres), and developed monitoring APIs (.NET, PHP).</td>
+    <td><b>Data Management & Operations</b><br>Built Fintech Data Center infrastructure from scratch (Alibaba Cloud). Implemented ISO 27001, Data Warehousing, IPsec/VPN networks, and monitoring dashboards.</td>
     <td>Mar 2020 - Apr 2025</td>
   </tr>
   <tr>
@@ -82,19 +82,22 @@
 <h2>Technical Skills</h2>
 
 **Languages**  
-Golang, C#, Java, PHP, Python, Rust, Shell Script
+Golang, C#, Java (Native Android), PHP, Python, Rust, Shell Script, JavaScript (Vanilla)
 
-**Frameworks**  
+**Frontend & Mobile**  
+Tailwind CSS, Capacitor, Native Android SDK
+
+**Frameworks (Backend)**  
 .NET Core, Laravel
 
 **Databases**  
 PostgreSQL, Microsoft SQL Server, Oracle DB, MySQL, Redis
 
-**Infrastructure**  
-Linux (Ubuntu/CentOS), Docker, Nginx
+**Cloud & Infrastructure**  
+**Alibaba Cloud (5+ Years)**, AWS, GCP (Lab), On-Premise, Linux (Ubuntu/CentOS), Docker, Nginx
 
-**Security & Compliance**  
-ISO 27001 Implementation, Fortigate, System Hardening
+**Networking & Security**  
+OpenVPN, strongSwan, Mikrotik, IPsec, ISO 27001, Fortigate, System Hardening
 
 **Performance & Testing**  
 k6, Apache JMeter
