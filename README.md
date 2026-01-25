@@ -12,14 +12,15 @@
   <tr>
     <td valign="top" width="55%">
       <h2>About Me</h2>
-      <p>I am a <b>Fullstack Engineer</b> and <b>Infrastructure Specialist</b> with over <b>5 years of experience</b> in the Fintech industry. My career has evolved from Android Development (Java) to IT Operations, Business Analysis, and finally to building critical Data Center infrastructure from the ground up.</p>
-      <p>I specialize in <b>building systems from scratch</b>—designing Data Warehousing architectures, managing internal networks (OpenVPN, Mikrotik, IPsec), and developing .NET/PHP APIs. I have deep expertise in <b>Data Engineering</b>, specifically implementing <b>CDC (Change Data Capture)</b> pipelines using <b>Debezium & Kafka</b> (PostgreSQL ↔ Oracle) and handling complex <b>Legacy Database Migrations</b>.</p>
-      <p>Currently, I focus on:</p>
+      <p>I am a <b>Fullstack Engineer</b> and <b>Infrastructure Specialist</b> with over <b>5 years of experience</b> in the Fintech industry. Currently, I serve as a <b>Database Administrator at Linknet</b> (AWS/On-Premise) and a <b>Fullstack Engineer at Halalvestor Global Asia</b> (Remote), where I revamp core features and integrate payment gateways.</p>
+      <p>Previously, I led Data Management & Operations at <b>AFPI</b>, building their <b>Fintech Data Center</b> from the ground up—including Data Warehousing, internal networks, and <b>ISO 27001</b> compliance.</p>
+      <p>I specialize in <b>building systems from scratch</b>, designing secure networks (OpenVPN, Mikrotik), and developing .NET/PHP APIs. I have deep expertise in <b>Data Engineering</b>, specifically implementing <b>CDC (Change Data Capture)</b> pipelines using <b>Debezium & Kafka</b> (PostgreSQL ↔ Oracle) and complex Legacy Migrations.</p>
+      <p><b>Core Focus:</b></p>
       <ul>
-        <li><b>Infrastructure & Cloud</b>: Alibaba Cloud (5 Years), AWS, On-Premise, and GCP (Lab).</li>
-        <li><b>Data Engineering</b>: Real-time Data Streaming with <b>Kafka & Debezium</b> and Database Migration (Oracle to PostgreSQL).</li>
-        <li><b>Fullstack Development</b>: developing complex <b>Custom CMS</b> solutions with <b>Laravel</b> and integration with native mobile apps.</li>
-        <li><b>Security & Compliance</b>: Hardening systems and implementing <b>ISO 27001</b> (InfoSec) & <b>UU PDP</b> (Data Privacy Protection).</li>
+        <li><b>Infrastructure & Cloud</b>: Alibaba Cloud (5 Years), AWS, On-Premise, GCP (Lab).</li>
+        <li><b>Data Engineering</b>: Real-time Data Streaming with <b>Kafka & Debezium</b>.</li>
+        <li><b>Fullstack Development</b>: Building <b>Custom CMS</b> solutions with <b>Laravel</b> and Native Mobile Apps.</li>
+        <li><b>Security</b>: System Hardening, <b>ISO 27001</b> & <b>UU PDP</b> (Data Privacy Protection).</li>
       </ul>
     </td>
     <td valign="top" width="45%">
@@ -28,53 +29,6 @@
       <br>
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RiprLutuk&layout=compact&theme=transparent&hide_border=true&align=left" alt="Top Languages" />
     </td>
-  </tr>
-</table>
-
-<br>
-
-<h2>Work Experience</h2>
-
-<table>
-  <tr>
-    <th width="250">Company</th>
-    <th width="300">Role & Impact</th>
-    <th width="150">Period</th>
-  </tr>
-  <tr>
-    <td><b>Linknet</b></td>
-    <td><b>Database Administrator</b><br>Scaling and maintaining critical database infrastructure on AWS & On-Premise.</td>
-    <td>Feb 2025 - Present</td>
-  </tr>
-  <tr>
-    <td><b>Halalvestor Global Asia</b></td>
-    <td><b>Fullstack Engineer & DBA</b> (Full Remote)<br>Revamping core features (Frontend/Backend) and integrating <b>Payment Gateways</b>.</td>
-    <td>Dec 2024 - Oct 2025</td>
-  </tr>
-  <tr>
-    <td><b>Freelance</b></td>
-    <td><b>Fullstack Developer</b><br>Building Custom CMS, Company Profiles, and APIs for various clients using Laravel.</td>
-    <td>2020 - Present</td>
-  </tr>
-  <tr>
-    <td><b>Asosiasi Fintech Pendanaan (AFPI)</b></td>
-    <td><b>Data Management & Operations</b><br>Built Fintech Data Center infrastructure from scratch (Alibaba Cloud). Implemented ISO 27001, Data Warehousing, IPsec/VPN networks, and monitoring dashboards.</td>
-    <td>Mar 2020 - Apr 2025</td>
-  </tr>
-  <tr>
-    <td><b>Sas Kreasindo Utama</b></td>
-    <td><b>IT Business Analyst</b><br>Bridging business requirements with technical implementation.</td>
-    <td>Nov 2019 - Feb 2020</td>
-  </tr>
-  <tr>
-    <td><b>Syarfi Teknologi Finansial</b></td>
-    <td><b>ICT Officer</b><br>Managing internal IT systems and network operations.</td>
-    <td>Sep 2018 - Sep 2019</td>
-  </tr>
-  <tr>
-    <td><b>Kerjaholic Inovasi Teknologi</b></td>
-    <td><b>Android Developer (Java)</b><br>Started career building mobile applications.</td>
-    <td>May 2018 - Jul 2018</td>
   </tr>
 </table>
 
