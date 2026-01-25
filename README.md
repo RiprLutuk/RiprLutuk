@@ -17,7 +17,7 @@
       <p>Currently, I focus on:</p>
       <ul>
         <li><b>Infrastructure & Cloud</b>: Alibaba Cloud (5 Years), AWS, On-Premise, and GCP (Lab).</li>
-        <li><b>Network Engineering</b>: Designing secure internal networks using OpenVPN, strongSwan, and Mikrotik.</li>
+        <li><b>Security & Compliance</b>: Hardening systems and implementing <b>ISO 27001</b> (InfoSec) & <b>UU PDP</b> (Data Privacy Protection).</li>
         <li><b>Fullstack Development</b>: developing complex <b>Custom CMS</b> solutions with <b>Laravel</b> and integrating with native mobile apps (Java/Capacitor).</li>
         <li><b>Database Engineering</b>: Tuning high-volume ETL pipelines (PostgreSQL, Oracle, SQL Server).</li>
       </ul>
@@ -115,10 +115,11 @@
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 
-### Networking & Security
+### Security, Privacy & Compliance
+![UU PDP](https://img.shields.io/badge/UU_PDP-Data_Privacy-4CAF50?style=for-the-badge&logo=shield&logoColor=white)
+![ISO 27001](https://img.shields.io/badge/ISO_27001-InfoSec-0064A4?style=for-the-badge&logo=security&logoColor=white)
 ![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=for-the-badge&logo=openvpn&logoColor=white)
 ![Fortigate](https://img.shields.io/badge/Fortinet-EE3124?style=for-the-badge&logo=fortinet&logoColor=white)
-![ISO 27001](https://img.shields.io/badge/ISO_27001-0064A4?style=for-the-badge&logo=security&logoColor=white)
 ![Mikrotik](https://img.shields.io/badge/MikroTik-B02027?style=for-the-badge&logo=mikrotik&logoColor=white)
 
 ### Performance Testing
