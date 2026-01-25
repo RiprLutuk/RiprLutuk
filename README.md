@@ -3,15 +3,14 @@
 **Fullstack Engineer & Database Infrastructure Specialist**  
 *5+ Years in Fintech Data Centers | Building Scalable Systems from Scratch | ISO 27001 Implementation*
 
-[![Email](https://img.shields.io/badge/Email-rizqy.pra85%40gmail.com-blue?style=flat-square&logo=gmail&logoColor=white)](mailto:rizqy.pra85@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-HERI%20RISKI%20ANTO-blue?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riprlutuk)
+[Email](mailto:rizqy.pra85@gmail.com) • [LinkedIn](https://www.linkedin.com/in/riprlutuk)
 
 <br>
 
 <table>
   <tr>
     <td valign="top" width="55%">
-      <h2>🚀 About Me</h2>
+      <h2>About Me</h2>
       <p>I am a <b>Fullstack Engineer</b> and <b>Infrastructure Specialist</b> with over <b>5 years of experience</b> in the Fintech industry. My career has evolved from Android Development (Java) to IT Operations, Business Analysis, and finally to building critical Data Center infrastructure from the ground up.</p>
       <p>I specialize in <b>building systems from scratch</b>—designing Data Warehousing architectures, setting up Linux/PostgreSQL servers, and developing .NET/PHP APIs for P2P lending platforms. My work includes implementing <b>ISO 27001</b> standards to ensure security and compliance.</p>
       <p>Currently, I focus on:</p>
@@ -23,7 +22,7 @@
       </ul>
     </td>
     <td valign="top" width="45%">
-      <h2>📊 GitHub Stats</h2>
+      <h2>GitHub Stats</h2>
       <img src="https://github-readme-stats.vercel.app/api?username=RiprLutuk&show_icons=true&theme=transparent&hide_border=true&count_private=true&align=left" alt="Heri Riski Anto's GitHub Stats" />
       <br>
       <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RiprLutuk&layout=compact&theme=transparent&hide_border=true&align=left" alt="Top Languages" />
@@ -33,7 +32,7 @@
 
 <br>
 
-<h2>💼 Work Experience</h2>
+<h2>Work Experience</h2>
 
 <table>
   <tr>
@@ -80,45 +79,30 @@
 
 <br>
 
-<h2>🛠️ Tech Stack</h2>
+<h2>Technical Skills</h2>
 
-### Languages & Frameworks
-![Golang](https://img.shields.io/badge/Golang-00ADD8?style=for-the-badge&logo=go&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=for-the-badge&logo=rust&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
-![.NET](https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+**Languages**  
+Golang, C#, Java, PHP, Python, Rust, Shell Script
 
-### Databases & Caching
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/Microsoft%20SQL%20Server-CC2927?style=for-the-badge&logo=microsoft-sql-server&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
+**Frameworks**  
+.NET Core, Laravel
 
-### Infrastructure & Security
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
-![ISO 27001](https://img.shields.io/badge/ISO_27001-0064A4?style=for-the-badge&logo=security&logoColor=white)
-![Fortigate](https://img.shields.io/badge/Fortinet-EE3124?style=for-the-badge&logo=fortinet&logoColor=white)
+**Databases**  
+PostgreSQL, Microsoft SQL Server, Oracle DB, MySQL, Redis
 
-### Performance Testing
-![k6](https://img.shields.io/badge/k6-7D64FF?style=for-the-badge&logo=k6&logoColor=white)
-![JMeter](https://img.shields.io/badge/Apache%20JMeter-D22128?style=for-the-badge&logo=apache-jmeter&logoColor=white)
+**Infrastructure**  
+Linux (Ubuntu/CentOS), Docker, Nginx
+
+**Security & Compliance**  
+ISO 27001 Implementation, Fortigate, System Hardening
+
+**Performance & Testing**  
+k6, Apache JMeter
 
 <br>
 
-<h2>📜 Certifications</h2>
+<h2>Certifications</h2>
 
 *   **DQLab**: Dasar menjadi data analyst
 *   **Spentera**: Hacking playground - pengenalan dasar hack
 *   **Dicoding**: Pemrograman dasar python
-
-<br>
-<br>
-
-> *“Strive not to be a success, but rather to be of value.” – Albert Einstein*
