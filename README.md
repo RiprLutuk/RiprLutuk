@@ -2,15 +2,15 @@
 
 <!-- Animated Cyberpunk Mission Control SVG Banner -->
 <a href="https://riprlutuk.github.io">
-  <img src="./assets/cyber-mission-control.svg" alt="Heri Riski Anto - The One-Man IT Division Architect" width="100%" />
+  <img src="https://raw.githubusercontent.com/RiprLutuk/RiprLutuk/main/assets/cyber-mission-control.svg" alt="Heri Riski Anto - The One-Man IT Division Architect" width="100%" />
 </a>
 
 <br><br>
 
 [![Interactive Mission Control](https://img.shields.io/badge/🌐_ENTER_MISSION_CONTROL_PORTFOLIO-riprlutuk.github.io-f97316?style=for-the-badge&logo=google-chrome&logoColor=white)](https://riprlutuk.github.io)
-[![Executive Curriculum Vitae](https://img.shields.io/badge/📄_EXECUTIVE_CURRICULUM_VITAE-10b981?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://riprlutuk.github.io/cv-ats-heri-riski-anto.html)
 [![Telegram Direct Dispatch](https://img.shields.io/badge/💬_DIRECT_TELEGRAM_DISPATCH-@riprlutuk-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/riprlutuk)
 [![LinkedIn Verified](https://img.shields.io/badge/💼_LINKEDIN_PROFILE-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/riprlutuk)
+[![Email Contact](https://img.shields.io/badge/✉️_DIRECT_EMAIL-rizqy.pra85%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rizqy.pra85@gmail.com)
 
 </div>
 
@@ -19,7 +19,7 @@
 ## 🏛️ Real-Time Production Architecture Pipeline
 
 <div align="center">
-  <img src="./assets/architecture-radar.svg" alt="Real-Time Production Data Pipeline" width="100%" />
+  <img src="https://raw.githubusercontent.com/RiprLutuk/RiprLutuk/main/assets/architecture-radar.svg" alt="Real-Time Production Data Pipeline" width="100%" />
 </div>
 
 ---

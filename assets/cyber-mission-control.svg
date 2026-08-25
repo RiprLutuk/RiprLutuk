@@ -1,129 +1,128 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 340" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 360" width="100%" height="100%">
   <defs>
     <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#070b12"/>
-      <stop offset="50%" stop-color="#0a101d"/>
-      <stop offset="100%" stop-color="#04070f"/>
+      <stop offset="0%" stop-color="#050811"/>
+      <stop offset="40%" stop-color="#0a101f"/>
+      <stop offset="100%" stop-color="#04060d"/>
     </linearGradient>
-    <linearGradient id="neon-orange" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="orange-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#f97316"/>
       <stop offset="100%" stop-color="#fb923c"/>
     </linearGradient>
-    <linearGradient id="neon-green" x1="0%" y1="0%" x2="100%" y2="0%">
+    <linearGradient id="green-grad" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#10b981"/>
       <stop offset="100%" stop-color="#06b6d4"/>
     </linearGradient>
-    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="border-pulse" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#f97316"/>
-      <stop offset="50%" stop-color="rgba(255,255,255,0.1)"/>
+      <stop offset="25%" stop-color="#10b981"/>
+      <stop offset="50%" stop-color="#06b6d4"/>
+      <stop offset="75%" stop-color="#f97316"/>
       <stop offset="100%" stop-color="#10b981"/>
     </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
+    <filter id="neon-glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
       <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
-      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(249, 115, 22, 0.05)" stroke-width="1"/>
+    <pattern id="matrix-grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M 28 0 L 0 0 0 28" fill="none" stroke="rgba(249, 115, 22, 0.06)" stroke-width="1"/>
+      <circle cx="28" cy="28" r="1" fill="rgba(16, 185, 129, 0.2)"/>
     </pattern>
   </defs>
 
   <style>
-    @keyframes scan {
-      0% { transform: translateY(0); opacity: 0.8; }
+    @keyframes laser-sweep {
+      0% { transform: translateY(0); opacity: 0.9; }
       50% { opacity: 0.3; }
-      100% { transform: translateY(320px); opacity: 0.8; }
+      100% { transform: translateY(340px); opacity: 0.9; }
     }
-    @keyframes pulse-dot {
-      0%, 100% { r: 5; opacity: 1; }
-      50% { r: 7; opacity: 0.5; }
+    @keyframes radar-blink {
+      0%, 100% { r: 5; opacity: 1; filter: drop-shadow(0 0 6px #10b981); }
+      50% { r: 7.5; opacity: 0.4; }
     }
-    @keyframes float-badge {
-      0%, 100% { transform: translateY(0); }
-      50% { transform: translateY(-3px); }
+    .laser-line {
+      animation: laser-sweep 3.5s ease-in-out infinite;
     }
-    .scan-line {
-      animation: scan 4s linear infinite;
-    }
-    .live-dot {
-      animation: pulse-dot 1.8s ease-in-out infinite;
+    .radar-dot {
+      animation: radar-blink 1.5s ease-in-out infinite;
     }
     .mono {
-      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
     }
     .sans {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
     }
   </style>
 
-  <!-- Background Canvas -->
-  <rect width="840" height="340" rx="16" fill="url(#bg-grad)"/>
-  <rect width="840" height="340" rx="16" fill="url(#grid)"/>
-  <rect width="838" height="338" x="1" y="1" rx="15" fill="none" stroke="url(#border-grad)" stroke-width="1.5"/>
+  <!-- Background Base -->
+  <rect width="880" height="360" rx="16" fill="url(#bg-grad)"/>
+  <rect width="880" height="360" rx="16" fill="url(#matrix-grid)"/>
+  <rect width="876" height="356" x="2" y="2" rx="15" fill="none" stroke="url(#border-pulse)" stroke-width="2"/>
 
-  <!-- Scanning Beam -->
-  <line x1="10" y1="10" x2="830" y2="10" stroke="rgba(249,115,22,0.3)" stroke-width="1.5" class="scan-line" filter="url(#glow)"/>
+  <!-- Scanning Laser Beam -->
+  <line x1="12" y1="12" x2="868" y2="12" stroke="#f97316" stroke-width="2" class="laser-line" filter="url(#neon-glow)"/>
 
-  <!-- Top Terminal Bar -->
-  <rect x="24" y="22" width="792" height="36" rx="8" fill="rgba(15, 23, 42, 0.7)" stroke="rgba(255,255,255,0.08)"/>
-  <circle cx="44" cy="40" r="5" fill="#ef4444"/>
-  <circle cx="60" cy="40" r="5" fill="#eab308"/>
-  <circle cx="76" cy="40" r="5" fill="#10b981"/>
-  <text x="100" y="44" fill="#94a3b8" class="mono" font-size="12" font-weight="600">riprlutuk@prod-cloud-01:~$ systemctl status one-man-it-division.service</text>
-  <circle cx="780" cy="40" r="4" fill="#10b981" class="live-dot"/>
-  <text x="792" y="44" fill="#10b981" class="mono" font-size="11" font-weight="700">ONLINE</text>
+  <!-- Top Terminal Header -->
+  <rect x="24" y="22" width="832" height="38" rx="8" fill="rgba(13, 19, 32, 0.85)" stroke="rgba(255,255,255,0.1)"/>
+  <circle cx="46" cy="41" r="5" fill="#ef4444"/>
+  <circle cx="62" cy="41" r="5" fill="#eab308"/>
+  <circle cx="78" cy="41" r="5" fill="#10b981"/>
+  <text x="102" y="45" fill="#94a3b8" class="mono" font-size="12" font-weight="700">riprlutuk@core-fleet-telemetry.prod [CLUSTER ACTIVE]</text>
+  <circle cx="810" cy="41" r="5" fill="#10b981" class="radar-dot"/>
+  <text x="822" y="45" fill="#10b981" class="mono" font-size="11" font-weight="800">LIVE</text>
 
-  <!-- Main Hero Brand -->
-  <text x="24" y="98" fill="#f8fafc" class="sans" font-size="28" font-weight="900" letter-spacing="-0.03em">
-    HERI RISKI ANTO <tspan fill="url(#neon-orange)">(@RiprLutuk)</tspan>
+  <!-- Brand Title -->
+  <text x="24" y="104" fill="#ffffff" class="sans" font-size="30" font-weight="900" letter-spacing="-0.03em">
+    HERI RISKI ANTO <tspan fill="url(#orange-grad)">(@RiprLutuk)</tspan>
   </text>
-  <text x="24" y="128" fill="url(#neon-green)" class="mono" font-size="14" font-weight="700" letter-spacing="0.05em">
+  <text x="24" y="134" fill="url(#green-grad)" class="mono" font-size="14" font-weight="800" letter-spacing="0.06em">
     ⚡ THE "ONE-MAN IT DIVISION" PLATFORM ARCHITECT
   </text>
-  <text x="24" y="152" fill="#94a3b8" class="sans" font-size="13" font-weight="500">
-    Senior DBA • Fullstack Web &amp; Mobile Engineer (Java/Flutter) • Cloud Infrastructure &amp; ISO 27001 Security
+  <text x="24" y="160" fill="#cbd5e1" class="sans" font-size="13.5" font-weight="500">
+    Senior DBA • Fullstack Web &amp; Mobile Engineer (Android Java/Flutter) • Cloud Infra &amp; ISO 27001 Security
   </text>
 
-  <!-- 4 Cybernetic HUD Metric Cards -->
-  <!-- Card 1 -->
-  <g transform="translate(24, 175)">
-    <rect width="186" height="72" rx="10" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(249, 115, 22, 0.4)" stroke-width="1"/>
-    <text x="14" y="24" fill="#94a3b8" class="mono" font-size="10" font-weight="600">DATABASE UPTIME SLA</text>
-    <text x="14" y="52" fill="#10b981" class="mono" font-size="20" font-weight="900" filter="url(#glow)">99.98%</text>
-    <text x="14" y="64" fill="#64748b" class="sans" font-size="9">PT Link Net Tbk Telecom</text>
+  <!-- 4 Cybernetic HUD Cards -->
+  <!-- HUD 1 -->
+  <g transform="translate(24, 185)">
+    <rect width="196" height="80" rx="10" fill="rgba(13, 19, 32, 0.9)" stroke="rgba(249, 115, 22, 0.4)" stroke-width="1.5"/>
+    <text x="16" y="26" fill="#94a3b8" class="mono" font-size="10" font-weight="700">DATABASE UPTIME SLA</text>
+    <text x="16" y="56" fill="#10b981" class="mono" font-size="22" font-weight="900" filter="url(#neon-glow)">99.98%</text>
+    <text x="16" y="70" fill="#64748b" class="sans" font-size="10">PT Link Net Tbk Telecom</text>
   </g>
 
-  <!-- Card 2 -->
-  <g transform="translate(226, 175)">
-    <rect width="186" height="72" rx="10" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1"/>
-    <text x="14" y="24" fill="#94a3b8" class="mono" font-size="10" font-weight="600">CDC OLAP THROUGHPUT</text>
-    <text x="14" y="52" fill="#06b6d4" class="mono" font-size="20" font-weight="900" filter="url(#glow)">33.3 GB/s</text>
-    <text x="14" y="64" fill="#64748b" class="sans" font-size="9">Kafka &rarr; ClickHouse</text>
+  <!-- HUD 2 -->
+  <g transform="translate(236, 185)">
+    <rect width="196" height="80" rx="10" fill="rgba(13, 19, 32, 0.9)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1.5"/>
+    <text x="16" y="26" fill="#94a3b8" class="mono" font-size="10" font-weight="700">CDC INGESTION STREAM</text>
+    <text x="16" y="56" fill="#06b6d4" class="mono" font-size="22" font-weight="900" filter="url(#neon-glow)">33.3 GB/s</text>
+    <text x="16" y="70" fill="#64748b" class="sans" font-size="10">Kafka &rarr; ClickHouse OLAP</text>
   </g>
 
-  <!-- Card 3 -->
-  <g transform="translate(428, 175)">
-    <rect width="186" height="72" rx="10" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(249, 115, 22, 0.4)" stroke-width="1"/>
-    <text x="14" y="24" fill="#94a3b8" class="mono" font-size="10" font-weight="600">FINTECH COMPLIANCE</text>
-    <text x="14" y="52" fill="#f97316" class="mono" font-size="20" font-weight="900" filter="url(#glow)">ISO 27001</text>
-    <text x="14" y="64" fill="#64748b" class="sans" font-size="9">AFPI 100+ Nodes Secured</text>
+  <!-- HUD 3 -->
+  <g transform="translate(448, 185)">
+    <rect width="196" height="80" rx="10" fill="rgba(13, 19, 32, 0.9)" stroke="rgba(249, 115, 22, 0.4)" stroke-width="1.5"/>
+    <text x="16" y="26" fill="#94a3b8" class="mono" font-size="10" font-weight="700">FINTECH ISMS SECURITY</text>
+    <text x="16" y="56" fill="#f97316" class="mono" font-size="22" font-weight="900" filter="url(#neon-glow)">ISO 27001</text>
+    <text x="16" y="70" fill="#64748b" class="sans" font-size="10">AFPI 100+ P2P Nodes</text>
   </g>
 
-  <!-- Card 4 -->
-  <g transform="translate(630, 175)">
-    <rect width="186" height="72" rx="10" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1"/>
-    <text x="14" y="24" fill="#94a3b8" class="mono" font-size="10" font-weight="600">MOBILE BIOMETRICS</text>
-    <text x="14" y="52" fill="#10b981" class="mono" font-size="20" font-weight="900" filter="url(#glow)">0.00% SPOOF</text>
-    <text x="14" y="64" fill="#64748b" class="sans" font-size="9">Android Java &amp; Flutter Face ID</text>
+  <!-- HUD 4 -->
+  <g transform="translate(660, 185)">
+    <rect width="196" height="80" rx="10" fill="rgba(13, 19, 32, 0.9)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1.5"/>
+    <text x="16" y="26" fill="#94a3b8" class="mono" font-size="10" font-weight="700">MOBILE BIOMETRICS</text>
+    <text x="16" y="56" fill="#10b981" class="mono" font-size="22" font-weight="900" filter="url(#neon-glow)">0.00% SPOOF</text>
+    <text x="16" y="70" fill="#64748b" class="sans" font-size="10">Android Java &amp; Flutter Face ID</text>
   </g>
 
-  <!-- Bottom Telemetry Pipeline Strip -->
-  <g transform="translate(24, 264)">
-    <rect width="792" height="52" rx="8" fill="rgba(10, 16, 29, 0.9)" stroke="rgba(255,255,255,0.06)"/>
-    <text x="16" y="24" fill="#64748b" class="mono" font-size="10" font-weight="700">ENTERPRISE MIGRATIONS:</text>
-    <text x="16" y="40" fill="#f8fafc" class="mono" font-size="11">
-      <tspan fill="#f97316">Oracle 19c &rarr; Postgres 16</tspan> • <tspan fill="#10b981">MongoDB &rarr; AWS DocDB</tspan> • <tspan fill="#06b6d4">AWS RDS &rarr; TencentDB</tspan> • <tspan fill="#eab308">Grafana 24/7</tspan>
+  <!-- Bottom Enterprise Migration Strip -->
+  <g transform="translate(24, 282)">
+    <rect width="832" height="54" rx="8" fill="rgba(8, 13, 24, 0.95)" stroke="rgba(255,255,255,0.08)"/>
+    <text x="18" y="24" fill="#64748b" class="mono" font-size="10" font-weight="800">ENTERPRISE PRODUCTION INITIATIVES:</text>
+    <text x="18" y="42" fill="#f8fafc" class="mono" font-size="11.5">
+      <tspan fill="#f97316">Oracle 19c &#8594; Postgres 16</tspan> • <tspan fill="#10b981">MongoDB &#8594; AWS DocDB</tspan> • <tspan fill="#06b6d4">AWS RDS &#8594; TencentDB</tspan> • <tspan fill="#eab308">Grafana Fleet 24/7</tspan>
     </text>
-    <rect x="660" y="14" width="116" height="24" rx="12" fill="rgba(249,115,22,0.2)" stroke="#f97316"/>
-    <text x="674" y="30" fill="#f97316" class="mono" font-size="10" font-weight="800">7+ YEARS EXP</text>
+    <rect x="710" y="14" width="108" height="26" rx="13" fill="rgba(249,115,22,0.2)" stroke="#f97316"/>
+    <text x="724" y="31" fill="#f97316" class="mono" font-size="10.5" font-weight="900">7+ YEARS EXP</text>
   </g>
 </svg>
