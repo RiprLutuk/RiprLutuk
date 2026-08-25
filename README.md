@@ -26,7 +26,7 @@
 ## 🏛️ Real-Time Production Architecture Pipeline
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/RiprLutuk/RiprLutuk/main/assets/architecture-radar.png" alt="Real-Time Production Data Pipeline" width="100%" />
+  <img src="https://raw.githubusercontent.com/RiprLutuk/RiprLutuk/main/assets/architecture-radar.svg" alt="Real-Time Production Data Pipeline" width="100%" />
 </div>
 
 ---

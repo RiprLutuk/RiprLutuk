@@ -1,25 +1,49 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 880 290" width="100%" height="100%">
   <defs>
-    <filter id="glow-line" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="3" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
+    <linearGradient id="stream-orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="stream-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="bg-box" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0a101f"/>
+      <stop offset="100%" stop-color="#050811"/>
+    </linearGradient>
   </defs>
 
   <style>
-    @keyframes flow-line {
+    @keyframes flow-line-1 {
       0% { stroke-dashoffset: 48; }
       100% { stroke-dashoffset: 0; }
     }
-    .flow-stream-orange {
-      stroke-dasharray: 8, 6;
-      animation: flow-line 1.2s linear infinite;
-      stroke: #f97316;
+    @keyframes flow-line-2 {
+      0% { stroke-dashoffset: 0; }
+      100% { stroke-dashoffset: 48; }
     }
-    .flow-stream-green {
+    @keyframes pulse-dot {
+      0%, 100% { r: 5; opacity: 1; }
+      50% { r: 7.5; opacity: 0.4; }
+    }
+    .flow-orange {
+      stroke: #f97316;
       stroke-dasharray: 8, 6;
-      animation: flow-line 1.2s linear infinite;
+      animation: flow-line-1 1.2s linear infinite;
+    }
+    .flow-green {
       stroke: #10b981;
+      stroke-dasharray: 8, 6;
+      animation: flow-line-1 1.2s linear infinite;
+    }
+    .flow-cyan {
+      stroke: #06b6d4;
+      stroke-dasharray: 8, 6;
+      animation: flow-line-1 1.2s linear infinite;
+    }
+    .radar-pulse {
+      animation: pulse-dot 1.8s ease-in-out infinite;
     }
     .mono {
       font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
@@ -29,54 +53,55 @@
     }
   </style>
 
-  <!-- Background Base -->
+  <!-- Background Base Canvas -->
   <rect width="880" height="290" rx="14" fill="#060a14" stroke="rgba(255,255,255,0.08)"/>
 
-  <!-- Title -->
+  <!-- Title & Live Status -->
   <text x="24" y="32" fill="#f8fafc" class="mono" font-size="12.5" font-weight="900" letter-spacing="0.05em">
     ⚡ REAL-TIME PRODUCTION DATA PIPELINE &amp; MULTI-ENGINE REPLICATION
   </text>
-  <text x="760" y="32" fill="#10b981" class="mono" font-size="11" font-weight="800">● 0-LAG SYNC</text>
+  <circle cx="745" cy="28" r="4.5" fill="#10b981" class="radar-pulse"/>
+  <text x="758" y="32" fill="#10b981" class="mono" font-size="11" font-weight="800">● 0-LAG SYNC</text>
 
   <!-- Node 1: Client Tier -->
-  <g transform="translate(24, 60)">
-    <rect width="145" height="90" rx="8" fill="#0d1424" stroke="#06b6d4" stroke-width="1.5"/>
+  <g transform="translate(24, 56)">
+    <rect width="145" height="92" rx="8" fill="#0d1424" stroke="#06b6d4" stroke-width="1.5"/>
     <text x="14" y="24" fill="#06b6d4" class="mono" font-size="11" font-weight="800">📱 CLIENT TIER</text>
     <text x="14" y="46" fill="#f8fafc" class="sans" font-size="10.5">Android Java/Kotlin</text>
     <text x="14" y="62" fill="#f8fafc" class="sans" font-size="10.5">Flutter + Vue 3 PWA</text>
     <text x="14" y="78" fill="#10b981" class="mono" font-size="9.5" font-weight="700">Anti-Mock Face ID</text>
   </g>
 
-  <!-- Flow 1 to 2 -->
-  <line x1="169" y1="105" x2="224" y2="105" stroke-width="2.5" class="flow-stream-orange"/>
+  <!-- Flow Line 1 to 2 -->
+  <line x1="169" y1="102" x2="224" y2="102" stroke-width="2.5" class="flow-cyan"/>
 
   <!-- Node 2: DDAG Gateway -->
-  <g transform="translate(224, 60)">
-    <rect width="150" height="90" rx="8" fill="#0d1424" stroke="#f97316" stroke-width="1.5"/>
+  <g transform="translate(224, 56)">
+    <rect width="150" height="92" rx="8" fill="#0d1424" stroke="#f97316" stroke-width="1.5"/>
     <text x="14" y="24" fill="#f97316" class="mono" font-size="11" font-weight="800">⚡ DDAG GATEWAY</text>
     <text x="14" y="46" fill="#f8fafc" class="sans" font-size="10.5">Zero-Trust Go API</text>
     <text x="14" y="62" fill="#f8fafc" class="sans" font-size="10.5">JWT Auth + RBAC</text>
     <text x="14" y="78" fill="#f97316" class="mono" font-size="9.5" font-weight="700">&lt; 2.5ms Overhead</text>
   </g>
 
-  <!-- Flow 2 to 3 -->
-  <line x1="374" y1="105" x2="429" y2="105" stroke-width="2.5" class="flow-stream-green"/>
+  <!-- Flow Line 2 to 3 -->
+  <line x1="374" y1="102" x2="429" y2="102" stroke-width="2.5" class="flow-orange"/>
 
   <!-- Node 3: Database HA -->
-  <g transform="translate(429, 60)">
-    <rect width="160" height="90" rx="8" fill="#0d1424" stroke="#10b981" stroke-width="1.5"/>
+  <g transform="translate(429, 56)">
+    <rect width="160" height="92" rx="8" fill="#0d1424" stroke="#10b981" stroke-width="1.5"/>
     <text x="14" y="24" fill="#10b981" class="mono" font-size="11" font-weight="800">💾 DATABASE HA</text>
     <text x="14" y="46" fill="#f8fafc" class="sans" font-size="10.5">PostgreSQL 16 HA</text>
     <text x="14" y="62" fill="#f8fafc" class="sans" font-size="10.5">Oracle 19c / MSSQL</text>
     <text x="14" y="78" fill="#10b981" class="mono" font-size="9.5" font-weight="700">99.98% SLA Uptime</text>
   </g>
 
-  <!-- Flow 3 to 4 -->
-  <line x1="589" y1="105" x2="644" y2="105" stroke-width="2.5" class="flow-stream-orange"/>
+  <!-- Flow Line 3 to 4 -->
+  <line x1="589" y1="102" x2="644" y2="102" stroke-width="2.5" class="flow-green"/>
 
   <!-- Node 4: CDC & OLAP -->
-  <g transform="translate(644, 60)">
-    <rect width="150" height="90" rx="8" fill="#0d1424" stroke="#ec4899" stroke-width="1.5"/>
+  <g transform="translate(644, 56)">
+    <rect width="150" height="92" rx="8" fill="#0d1424" stroke="#ec4899" stroke-width="1.5"/>
     <text x="14" y="24" fill="#ec4899" class="mono" font-size="11" font-weight="800">🔄 CDC &amp; OLAP</text>
     <text x="14" y="46" fill="#f8fafc" class="sans" font-size="10.5">Kafka + Debezium</text>
     <text x="14" y="62" fill="#f8fafc" class="sans" font-size="10.5">ClickHouse Engine</text>
@@ -84,8 +109,8 @@
   </g>
 
   <!-- Bottom Strip: Enterprise Security & Observability -->
-  <g transform="translate(24, 175)">
-    <rect width="832" height="95" rx="8" fill="#09101f" stroke="rgba(249,115,22,0.4)" stroke-width="1.5"/>
+  <g transform="translate(24, 172)">
+    <rect width="832" height="98" rx="8" fill="#09101f" stroke="rgba(249,115,22,0.4)" stroke-width="1.5"/>
     <text x="20" y="26" fill="#f97316" class="mono" font-size="11.5" font-weight="900">🛡️ ENTERPRISE GOVERNANCE &amp; 24/7 OBSERVABILITY TIER</text>
     <text x="20" y="50" fill="#94a3b8" class="mono" font-size="10.5">
       • <tspan fill="#fff">Grafana &amp; Prometheus:</tspan> Centralized Fleet Dashboards (Buffer hits, lock contention, replica lag)
