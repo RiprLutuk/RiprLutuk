@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 340" width="100%" height="100%">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#070b12"/>
+      <stop offset="50%" stop-color="#0a101d"/>
+      <stop offset="100%" stop-color="#04070f"/>
+    </linearGradient>
+    <linearGradient id="neon-orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="neon-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <linearGradient id="border-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="50%" stop-color="rgba(255,255,255,0.1)"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <path d="M 24 0 L 0 0 0 24" fill="none" stroke="rgba(249, 115, 22, 0.05)" stroke-width="1"/>
+    </pattern>
+  </defs>
+
+  <style>
+    @keyframes scan {
+      0% { transform: translateY(0); opacity: 0.8; }
+      50% { opacity: 0.3; }
+      100% { transform: translateY(320px); opacity: 0.8; }
+    }
+    @keyframes pulse-dot {
+      0%, 100% { r: 5; opacity: 1; }
+      50% { r: 7; opacity: 0.5; }
+    }
+    @keyframes float-badge {
+      0%, 100% { transform: translateY(0); }
+      50% { transform: translateY(-3px); }
+    }
+    .scan-line {
+      animation: scan 4s linear infinite;
+    }
+    .live-dot {
+      animation: pulse-dot 1.8s ease-in-out infinite;
+    }
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+    }
+    .sans {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+  </style>
+
+  <!-- Background Canvas -->
+  <rect width="840" height="340" rx="16" fill="url(#bg-grad)"/>
+  <rect width="840" height="340" rx="16" fill="url(#grid)"/>
+  <rect width="838" height="338" x="1" y="1" rx="15" fill="none" stroke="url(#border-grad)" stroke-width="1.5"/>
+
+  <!-- Scanning Beam -->
+  <line x1="10" y1="10" x2="830" y2="10" stroke="rgba(249,115,22,0.3)" stroke-width="1.5" class="scan-line" filter="url(#glow)"/>
+
+  <!-- Top Terminal Bar -->
+  <rect x="24" y="22" width="792" height="36" rx="8" fill="rgba(15, 23, 42, 0.7)" stroke="rgba(255,255,255,0.08)"/>
+  <circle cx="44" cy="40" r="5" fill="#ef4444"/>
+  <circle cx="60" cy="40" r="5" fill="#eab308"/>
+  <circle cx="76" cy="40" r="5" fill="#10b981"/>
+  <text x="100" y="44" fill="#94a3b8" class="mono" font-size="12" font-weight="600">riprlutuk@prod-cloud-01:~$ systemctl status one-man-it-division.service</text>
+  <circle cx="780" cy="40" r="4" fill="#10b981" class="live-dot"/>
+  <text x="792" y="44" fill="#10b981" class="mono" font-size="11" font-weight="700">ONLINE</text>
+
+  <!-- Main Hero Brand -->
+  <text x="24" y="98" fill="#f8fafc" class="sans" font-size="28" font-weight="900" letter-spacing="-0.03em">
+    HERI RISKI ANTO <tspan fill="url(#neon-orange)">(@RiprLutuk)</tspan>
+  </text>
+  <text x="24" y="128" fill="url(#neon-green)" class="mono" font-size="14" font-weight="700" letter-spacing="0.05em">
+    ⚡ THE "ONE-MAN IT DIVISION" PLATFORM ARCHITECT
+  </text>
+  <text x="24" y="152" fill="#94a3b8" class="sans" font-size="13" font-weight="500">
+    Senior DBA • Fullstack Web &amp; Mobile Engineer (Java/Flutter) • Cloud Infrastructure &amp; ISO 27001 Security
+  </text>
+
+  <!-- 4 Cybernetic HUD Metric Cards -->
+  <!-- Card 1 -->
+  <g transform="translate(24, 175)">
+    <rect width="186" height="72" rx="10" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(249, 115, 22, 0.4)" stroke-width="1"/>
+    <text x="14" y="24" fill="#94a3b8" class="mono" font-size="10" font-weight="600">DATABASE UPTIME SLA</text>
+    <text x="14" y="52" fill="#10b981" class="mono" font-size="20" font-weight="900" filter="url(#glow)">99.98%</text>
+    <text x="14" y="64" fill="#64748b" class="sans" font-size="9">PT Link Net Tbk Telecom</text>
+  </g>
+
+  <!-- Card 2 -->
+  <g transform="translate(226, 175)">
+    <rect width="186" height="72" rx="10" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1"/>
+    <text x="14" y="24" fill="#94a3b8" class="mono" font-size="10" font-weight="600">CDC OLAP THROUGHPUT</text>
+    <text x="14" y="52" fill="#06b6d4" class="mono" font-size="20" font-weight="900" filter="url(#glow)">33.3 GB/s</text>
+    <text x="14" y="64" fill="#64748b" class="sans" font-size="9">Kafka &rarr; ClickHouse</text>
+  </g>
+
+  <!-- Card 3 -->
+  <g transform="translate(428, 175)">
+    <rect width="186" height="72" rx="10" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(249, 115, 22, 0.4)" stroke-width="1"/>
+    <text x="14" y="24" fill="#94a3b8" class="mono" font-size="10" font-weight="600">FINTECH COMPLIANCE</text>
+    <text x="14" y="52" fill="#f97316" class="mono" font-size="20" font-weight="900" filter="url(#glow)">ISO 27001</text>
+    <text x="14" y="64" fill="#64748b" class="sans" font-size="9">AFPI 100+ Nodes Secured</text>
+  </g>
+
+  <!-- Card 4 -->
+  <g transform="translate(630, 175)">
+    <rect width="186" height="72" rx="10" fill="rgba(15, 23, 42, 0.85)" stroke="rgba(16, 185, 129, 0.4)" stroke-width="1"/>
+    <text x="14" y="24" fill="#94a3b8" class="mono" font-size="10" font-weight="600">MOBILE BIOMETRICS</text>
+    <text x="14" y="52" fill="#10b981" class="mono" font-size="20" font-weight="900" filter="url(#glow)">0.00% SPOOF</text>
+    <text x="14" y="64" fill="#64748b" class="sans" font-size="9">Android Java &amp; Flutter Face ID</text>
+  </g>
+
+  <!-- Bottom Telemetry Pipeline Strip -->
+  <g transform="translate(24, 264)">
+    <rect width="792" height="52" rx="8" fill="rgba(10, 16, 29, 0.9)" stroke="rgba(255,255,255,0.06)"/>
+    <text x="16" y="24" fill="#64748b" class="mono" font-size="10" font-weight="700">ENTERPRISE MIGRATIONS:</text>
+    <text x="16" y="40" fill="#f8fafc" class="mono" font-size="11">
+      <tspan fill="#f97316">Oracle 19c &rarr; Postgres 16</tspan> • <tspan fill="#10b981">MongoDB &rarr; AWS DocDB</tspan> • <tspan fill="#06b6d4">AWS RDS &rarr; TencentDB</tspan> • <tspan fill="#eab308">Grafana 24/7</tspan>
+    </text>
+    <rect x="660" y="14" width="116" height="24" rx="12" fill="rgba(249,115,22,0.2)" stroke="#f97316"/>
+    <text x="674" y="30" fill="#f97316" class="mono" font-size="10" font-weight="800">7+ YEARS EXP</text>
+  </g>
+</svg>

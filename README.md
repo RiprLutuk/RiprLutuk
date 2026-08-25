@@ -1,101 +1,26 @@
 <div align="center">
 
-```
-  ██████╗ ██╗██████╗ ██████╗ ██╗     ██╗   ██╗████████╗██╗   ██╗██╗  ██╗
-  ██╔══██╗██║██╔══██╗██╔══██╗██║     ██║   ██║╚══██╔══╝██║   ██║██║ ██╔╝
-  ██████╔╝██║██████╔╝██████╔╝██║     ██║   ██║   ██║   ██║   ██║█████╔╝ 
-  ██╔══██╗██║██╔═══╝ ██╔══██╗██║     ██║   ██║   ██║   ██║   ██║██╔═██╗ 
-  ██║  ██║██║██║     ██║  ██║███████╗╚██████╔╝   ██║   ╚██████╔╝██║  ██╗
-  ╚═╝  ╚═╝╚═╝╚═╝     ╚═╝  ╚═╝╚══════╝ ╚═════╝    ╚═╝    ╚═════╝ ╚═╝  ╚═╝
-```
+<!-- Animated Cyberpunk Mission Control SVG Banner -->
+<a href="https://riprlutuk.github.io">
+  <img src="./assets/cyber-mission-control.svg" alt="Heri Riski Anto - The One-Man IT Division Architect" width="100%" />
+</a>
 
-### ⚡ HERI RISKI ANTO // THE "ONE-MAN IT DIVISION" PLATFORM ARCHITECT
-**`Senior DBA` • `Fullstack Web & Mobile Engineer` • `Cloud Infrastructure & ISO 27001 Security`**
-
-```diff
-+ 7+ Years Enterprise Production Track Record | 99.98% High Availability SLA
-+ Active DBA at PT Link Net Tbk | Former Lead at AFPI National Fintech Data Center
-+ Specializing in Zero-Downtime Migrations, High-Concurrency APIs, and Biometrics
-```
-
-<br>
+<br><br>
 
 [![Interactive Mission Control](https://img.shields.io/badge/🌐_ENTER_MISSION_CONTROL_PORTFOLIO-riprlutuk.github.io-f97316?style=for-the-badge&logo=google-chrome&logoColor=white)](https://riprlutuk.github.io)
 [![Executive Curriculum Vitae](https://img.shields.io/badge/📄_EXECUTIVE_CURRICULUM_VITAE-10b981?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://riprlutuk.github.io/cv-ats-heri-riski-anto.html)
 [![Telegram Direct Dispatch](https://img.shields.io/badge/💬_DIRECT_TELEGRAM_DISPATCH-@riprlutuk-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/riprlutuk)
 [![LinkedIn Verified](https://img.shields.io/badge/💼_LINKEDIN_PROFILE-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/riprlutuk)
 
-<br>
-
 </div>
 
 ---
 
-## 🖥️ Mission Control System Telemetry & Cluster Matrix
+## 🏛️ Real-Time Production Architecture Pipeline
 
-```
-riprlutuk@cloud-node-01:~$ systemctl status one-man-it-division.service --live
-● one-man-it-division.service - Full-Lifecycle Engineering Daemon
-     Loaded: loaded (/etc/systemd/system/one-man-it-division.service; enabled)
-     Active: active (running) since 7+ Years in 24/7 Production
-   Main PID: 1337 (riprlutuk)
-     Status: "Delivering end-to-end platforms from bare-metal databases to biometric mobile apps."
-      Tasks: 6 Active Divisions (0 Crashes, 99.98% Production SLA)
-
-  ┌─────────────────────────┬────────────────────────────────────────────────────────┐
-  │ DIVISION TIER           │ ACTIVE ENGINES, FRAMEWORKS & RUNTIME STATUS            │
-  ├─────────────────────────┼────────────────────────────────────────────────────────┤
-  │ 📱 MOBILE & BIOMETRICS  │ Android Native (Java/Kotlin) + Flutter • Face ID: UP   │
-  │ 🌐 FRONTEND & WASM      │ Vue 3 PWA + React + PGlite WASM (0.4ms Local Queries)  │
-  │ ⚡ BACKEND & MICROSERVICES│ Go (Golang) + Python + Laravel 11 (< 2.5ms Overhead)   │
-  │ 💾 CORE DATABASE (DBA)  │ PostgreSQL 16 HA + Oracle 19c + MSSQL AlwaysOn + MySQL │
-  │ 🔄 CDC STREAMING & OLAP │ Apache Kafka + Debezium CDC + ClickHouse (33.3 GB/s)   │
-  │ 🛡️ SECURITY & ISMS      │ Lead ISO/IEC 27001:2022 + UU PDP + FortiGate IPsec VPN │
-  └─────────────────────────┴────────────────────────────────────────────────────────┘
-```
-
----
-
-## 🏛️ End-to-End Platform Architecture Blueprint
-
-How I design, build, and operate zero-downtime, high-concurrency systems from scratch:
-
-```
-                  ┌──────────────────────────────────────────────────────────┐
-                  │                 CLIENT APPLICATION TIER                  │
-                  │   Android Native (Java/Kotlin)  •  Flutter Cross-Platform│
-                  │     Face ID Biometrics  •  Anti-Mock GPS Spoof Filter    │
-                  │         Vue 3 PWA Client (Embedded PGlite WASM)          │
-                  └─────────────────────────────┬────────────────────────────┘
-                                                │ HTTPS / WSS / gRPC
-                                                ▼
-                  ┌──────────────────────────────────────────────────────────┐
-                  │              ZERO-TRUST GO API GATEWAY (DDAG)            │
-                  │   Dynamic SQL Schema Reflection  •  JWT Auth & RBAC      │
-                  │   PgBouncer Dynamic Connection Multiplexing (< 2.5ms)    │
-                  └──────────────┬───────────────────────────┬───────────────┘
-                                 │                           │
-                   Read/Write OLTP                           │ Change Data Capture (WAL)
-                                 │                           │
-                                 ▼                           ▼
-  ┌──────────────────────────────────────────────┐  ┌────────────────────────────────┐
-  │         CORE MULTI-ENGINE DATABASE HA        │  │   REAL-TIME STREAMING & OLAP   │
-  │  • PostgreSQL 16 Streaming Primary/Replica   │  │  • Apache Kafka Distributed Log│
-  │  • Oracle 19c ARCHIVELOG & RMAN Backup       │──►  • Debezium CDC Engine (0-Lag) │
-  │  • MS SQL Server AlwaysOn Synchronized       │  │  • ClickHouse Columnar Storage │
-  │  • Redis In-Memory Caching & Session Store   │  │    (Sub-second query over 50M) │
-  └──────────────────────┬───────────────────────┘  └────────────────┬───────────────┘
-                         │                                           │
-                         └─────────────────────┬─────────────────────┘
-                                               │
-                                               ▼
-                  ┌──────────────────────────────────────────────────────────┐
-                  │         ENTERPRISE OBSERVABILITY & SECURITY GOVERNANCE   │
-                  │  • Centralized Grafana & Prometheus Fleet Dashboards     │
-                  │  • Fortinet FortiGate & StrongSwan IPsec (100+ Tunnels)   │
-                  │  • Lead ISO/IEC 27001:2022 ISMS & UU PDP Data Protection │
-                  └──────────────────────────────────────────────────────────┘
-```
+<div align="center">
+  <img src="./assets/architecture-radar.svg" alt="Real-Time Production Data Pipeline" width="100%" />
+</div>
 
 ---
 
@@ -105,8 +30,9 @@ How I design, build, and operate zero-downtime, high-concurrency systems from sc
 <summary><strong>🚨 Incident Drill #01: Zero-Downtime Heterogeneous Migration (Oracle 19c &rarr; PostgreSQL 16)</strong></summary>
 
 ```yaml
-Scenario: Migrating multi-terabyte telecom billing tables from Oracle 19c to PostgreSQL 16 without taking downtime.
-Strategy & Execution:
+Organization: PT Link Net Tbk (Enterprise Telecom)
+Scenario: Migrating multi-terabyte billing ledger from Oracle 19c to PostgreSQL 16 without taking downtime.
+Heri Riski Anto Execution:
   1. Automated PL/SQL to PL/pgSQL translation of stored procedures, views, and sequence triggers.
   2. Dual-write Change Data Capture (Debezium WAL + Kafka) syncing incremental delta records with 0 lag.
   3. Continuous SHA-256 hash checksum validation on row blocks across both engines.
@@ -136,7 +62,7 @@ Result: Database CPU dropped from 98% to 14%, query response latency stabilized 
 -- PROBLEM: Traditional OLTP query aggregating monthly financial ledger takes 4,280ms
 SELECT tenant_id, status, SUM(amount), AVG(processing_time)
 FROM ledger_records_50m 
-WHERE event_date >= 2025-01-01
+WHERE event_date >= '2025-01-01'
 GROUP BY tenant_id, status;
 
 -- CLICKHOUSE VECTORIZED ENGINE OPTIMIZATION:
@@ -205,7 +131,7 @@ Why I select specific technologies and architectures for high-stakes enterprise 
 
 ## 🌐 Live Diagnostic Lab & Interactive Sandbox on Website
 
-Visit the flagship interactive website at **[riprlutuk.github.io](https://riprlutuk.github.io)** to test:
+Explore live simulations and tools on **[riprlutuk.github.io](https://riprlutuk.github.io)**:
 
 * 🔬 **[DBA Diagnostic Lab](https://riprlutuk.github.io/#dba-lab):** Run real EXPLAIN ANALYZE comparison drills across 10M rows and trigger automated SRE failover scenarios.
 * 💰 **[Cloud ROI Calculator](https://riprlutuk.github.io/#roi-calculator):** Estimate infrastructure savings with instant 1-click presets (Enterprise Migration, Fintech Scaling, 0-to-1 MVP).

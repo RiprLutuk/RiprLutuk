@@ -1,0 +1,104 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 840 280" width="100%" height="100%">
+  <defs>
+    <linearGradient id="flow-orange" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f97316"/>
+      <stop offset="100%" stop-color="#fb923c"/>
+    </linearGradient>
+    <linearGradient id="flow-green" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#06b6d4"/>
+    </linearGradient>
+    <filter id="glow-p" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <style>
+    @keyframes flow-line {
+      0% { stroke-dashoffset: 40; }
+      100% { stroke-dashoffset: 0; }
+    }
+    .flow-stream {
+      stroke-dasharray: 6, 6;
+      animation: flow-line 1.2s linear infinite;
+    }
+    .mono {
+      font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", monospace;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="840" height="280" rx="14" fill="#050811" stroke="rgba(255,255,255,0.08)"/>
+
+  <!-- Section Title -->
+  <text x="24" y="32" fill="#f8fafc" class="mono" font-size="12" font-weight="800" letter-spacing="0.05em">
+    ⚡ REAL-TIME PRODUCTION DATA PIPELINE &amp; MULTI-ENGINE REPLICATION
+  </text>
+  <text x="730" y="32" fill="#10b981" class="mono" font-size="10" font-weight="700">● 0-LAG SYNC</text>
+
+  <!-- Node 1: Mobile & PWA Client -->
+  <g transform="translate(24, 60)">
+    <rect width="130" height="85" rx="8" fill="#0d1320" stroke="#06b6d4" stroke-width="1.5"/>
+    <text x="14" y="24" fill="#06b6d4" class="mono" font-size="11" font-weight="800">📱 CLIENT TIER</text>
+    <text x="14" y="44" fill="#f8fafc" font-size="10" font-family="sans-serif">Android Java/Kotlin</text>
+    <text x="14" y="58" fill="#f8fafc" font-size="10" font-family="sans-serif">Flutter + Vue 3 PWA</text>
+    <text x="14" y="72" fill="#10b981" class="mono" font-size="9">Anti-Mock Face ID</text>
+  </g>
+
+  <!-- Flow Line 1 to 2 -->
+  <line x1="154" y1="102" x2="204" y2="102" stroke="#06b6d4" stroke-width="2" class="flow-stream"/>
+
+  <!-- Node 2: DDAG Go Gateway -->
+  <g transform="translate(204, 60)">
+    <rect width="140" height="85" rx="8" fill="#0d1320" stroke="#f97316" stroke-width="1.5"/>
+    <text x="14" y="24" fill="#f97316" class="mono" font-size="11" font-weight="800">⚡ DDAG GATEWAY</text>
+    <text x="14" y="44" fill="#f8fafc" font-size="10" font-family="sans-serif">Zero-Trust Go API</text>
+    <text x="14" y="58" fill="#f8fafc" font-size="10" font-family="sans-serif">JWT Auth + RBAC</text>
+    <text x="14" y="72" fill="#f97316" class="mono" font-size="9">&lt; 2.5ms Overhead</text>
+  </g>
+
+  <!-- Flow Line 2 to 3 -->
+  <line x1="344" y1="102" x2="394" y2="102" stroke="#f97316" stroke-width="2" class="flow-stream"/>
+
+  <!-- Node 3: Core Database HA -->
+  <g transform="translate(394, 60)">
+    <rect width="150" height="85" rx="8" fill="#0d1320" stroke="#10b981" stroke-width="1.5"/>
+    <text x="14" y="24" fill="#10b981" class="mono" font-size="11" font-weight="800">💾 DATABASE HA</text>
+    <text x="14" y="44" fill="#f8fafc" font-size="10" font-family="sans-serif">PostgreSQL 16 HA</text>
+    <text x="14" y="58" fill="#f8fafc" font-size="10" font-family="sans-serif">Oracle 19c / MSSQL</text>
+    <text x="14" y="72" fill="#10b981" class="mono" font-size="9">99.98% SLA Uptime</text>
+  </g>
+
+  <!-- Flow Line 3 to 4 -->
+  <line x1="544" y1="102" x2="594" y2="102" stroke="#10b981" stroke-width="2" class="flow-stream"/>
+
+  <!-- Node 4: Kafka & ClickHouse CDC -->
+  <g transform="translate(594, 60)">
+    <rect width="140" height="85" rx="8" fill="#0d1320" stroke="#ec4899" stroke-width="1.5"/>
+    <text x="14" y="24" fill="#ec4899" class="mono" font-size="11" font-weight="800">🔄 CDC &amp; OLAP</text>
+    <text x="14" y="44" fill="#f8fafc" font-size="10" font-family="sans-serif">Kafka + Debezium</text>
+    <text x="14" y="58" fill="#f8fafc" font-size="10" font-family="sans-serif">ClickHouse Storage</text>
+    <text x="14" y="72" fill="#ec4899" class="mono" font-size="9">33.3 GB/s Stream</text>
+  </g>
+
+  <!-- Flow Line 4 to 5 -->
+  <line x1="734" y1="102" x2="760" y2="102" stroke="#eab308" stroke-width="2"/>
+  <line x1="760" y1="102" x2="760" y2="190" stroke="#eab308" stroke-width="2"/>
+  <line x1="760" y1="190" x2="734" y2="190" stroke="#eab308" stroke-width="2" class="flow-stream"/>
+
+  <!-- Bottom Node: Observability & Security Shield -->
+  <g transform="translate(24, 165)">
+    <rect width="710" height="90" rx="8" fill="#080e1a" stroke="rgba(249,115,22,0.4)" stroke-width="1"/>
+    <text x="20" y="26" fill="#f97316" class="mono" font-size="11" font-weight="800">🛡️ ENTERPRISE GOVERNANCE &amp; 24/7 OBSERVABILITY TIER</text>
+    <text x="20" y="48" fill="#94a3b8" class="mono" font-size="10">
+      • <tspan fill="#fff">Grafana &amp; Prometheus:</tspan> Centralized Fleet Dashboards (Buffer hit, lock contention, replica lag)
+    </text>
+    <text x="20" y="66" fill="#94a3b8" class="mono" font-size="10">
+      • <tspan fill="#fff">Cybersecurity Standards:</tspan> Lead ISO/IEC 27001:2022 ISMS, UU No. 27/2022 (UU PDP), FortiGate IPsec (100+ Tunnels)
+    </text>
+    <text x="20" y="82" fill="#10b981" class="mono" font-size="10" font-weight="700">
+      • Disaster Recovery Readiness: Secondary DRC Site Sync • RPO &lt; 15m / RTO &lt; 1h
+    </text>
+  </g>
+</svg>
