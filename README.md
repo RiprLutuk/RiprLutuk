@@ -1,161 +1,129 @@
-# Hi, I'm Heri Riski Anto 👋
+<div align="center">
 
-**Fullstack Engineer · Database Infrastructure Specialist · Data Engineering Practitioner**
+# ⚡ Heri Riski Anto (`@RiprLutuk`)
+### Senior Database Administrator (DBA) • Fullstack & Mobile App Architect
+**The "One-Man IT Division" Platform Engineer with 7+ Years of Production Experience**
 
-I build scalable applications, database platforms, internal tools, and data pipelines for fintech, infrastructure, and enterprise systems.
+[![Interactive Portfolio](https://img.shields.io/badge/🌐_Interactive_Portfolio-riprlutuk.github.io-f97316?style=for-the-badge&logo=google-chrome&logoColor=white)](https://riprlutuk.github.io)
+[![Curriculum Vitae](https://img.shields.io/badge/📄_Executive_Resume-View_PDF-10b981?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://riprlutuk.github.io/cv-ats-heri-riski-anto.html)
+[![Telegram](https://img.shields.io/badge/💬_Telegram-@riprlutuk-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/riprlutuk)
+[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Heri_Riski_Anto-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/riprlutuk)
+[![Email](https://img.shields.io/badge/✉️_Email-rizqy.pra85@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rizqy.pra85@gmail.com)
 
-[![Email](https://img.shields.io/badge/Email-rizqy.pra85%40gmail.com-blue?style=flat-square\&logo=gmail\&logoColor=white)](mailto:rizqy.pra85@gmail.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Heri%20Riski%20Anto-blue?style=flat-square\&logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/riprlutuk)
-[![Telegram](https://img.shields.io/badge/Telegram-@RiprLutuk-2CA5E0?style=flat-square\&logo=telegram\&logoColor=white)](https://t.me/RiprLutuk)
+<br>
 
----
+```
+┌──────────────────────────────────────────────────────────────────────────────────┐
+│  📱 Mobile (Java/Flutter)  │  🌐 Frontend (Vue 3/React)  │  ⚡ Backend (Go/Laravel)   │
+│  💾 Core DBA (Postgres/Ora)│  🔄 CDC OLAP (ClickHouse)   │  🛡️ Security (ISO 27001)   │
+└──────────────────────────────────────────────────────────────────────────────────┘
+```
 
-## About Me
-
-I am a **Fullstack Engineer** and **Database Infrastructure Specialist** with 5+ years of experience building, maintaining, and optimizing systems in fintech and enterprise environments.
-
-My work focuses on:
-
-* Building **backend systems, APIs, fullstack dashboards, and internal platforms**
-* Managing **PostgreSQL, Oracle, SQL Server, MySQL/MariaDB, Redis**, and large-scale database operations
-* Designing **data pipelines, CDC streaming, and database migration workflows**
-* Operating infrastructure across **AWS, Alibaba Cloud, on-premise servers, Linux, Nginx, Apache, Caddy, Docker/Podman**
-* Improving system reliability through **monitoring, performance tuning, backup/restore, and security hardening**
-
-Previously, I helped build and operate fintech data center infrastructure, including data warehouse systems, internal networks, database operations, and compliance-oriented environments such as **ISO 27001** and **UU PDP**.
-
-I enjoy building practical systems from scratch, especially tools that reduce manual work, simplify database access, and avoid unnecessary vendor lock-in.
+</div>
 
 ---
 
-## Core Strengths
+## 🚀 Executive Summary
 
-| Area                      | Focus                                                                       |
-| ------------------------- | --------------------------------------------------------------------------- |
-| **Fullstack Development** | Laravel, .NET Core, PHP, Go, JavaScript, Tailwind CSS, API development      |
-| **Database Engineering**  | PostgreSQL, Oracle, SQL Server, MySQL, schema migration, performance tuning |
-| **Data Engineering**      | Kafka, Debezium, CDC, ETL/ELT, data warehouse workflows                     |
-| **Infrastructure**        | Linux, Nginx, Docker/Podman, AWS, Alibaba Cloud, on-premise servers         |
-| **Security & Compliance** | System hardening, VPN, firewall, ISO 27001, UU PDP                          |
-| **Automation**            | Shell scripting, database jobs, backup/restore automation, internal tooling |
+Battle-tested **Fullstack Developer, Mobile App Engineer, Senior Database Administrator (DBA), and Cloud Infrastructure Architect** with **7+ years of continuous production experience**. 
 
----
+Capable of single-handedly engineering and operating the entire tech stack — from native Android (Java/Kotlin) and Flutter mobile apps with biometric security, high-throughput Go and Python microservices, to enterprise multi-engine database high availability (PostgreSQL, MSSQL, Oracle, MySQL), cloud migrations, and ISO/IEC 27001 fintech compliance.
 
-## Tech Stack
-
-### Languages
-
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square\&logo=go\&logoColor=white)
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square\&logo=rust\&logoColor=white)
-![Java](https://img.shields.io/badge/Java-ED8B00?style=flat-square\&logo=openjdk\&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat-square\&logo=php\&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square\&logo=python\&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square\&logo=javascript\&logoColor=black)
-![SQL](https://img.shields.io/badge/SQL-Advanced-CC2927?style=flat-square\&logo=microsoft-sql-server\&logoColor=white)
-![Shell](https://img.shields.io/badge/Shell-121011?style=flat-square\&logo=gnu-bash\&logoColor=white)
-
-### Backend & Frontend
-
-![Laravel](https://img.shields.io/badge/Laravel-FF2D20?style=flat-square\&logo=laravel\&logoColor=white)
-![.NET Core](https://img.shields.io/badge/.NET_Core-512BD4?style=flat-square\&logo=dotnet\&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square\&logo=tailwind-css\&logoColor=white)
-![Capacitor](https://img.shields.io/badge/Capacitor-1199EE?style=flat-square\&logo=capacitor\&logoColor=white)
-![Android](https://img.shields.io/badge/Android-3DDC84?style=flat-square\&logo=android\&logoColor=white)
-
-### Databases & Data Platform
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat-square\&logo=postgresql\&logoColor=white)
-![Oracle](https://img.shields.io/badge/Oracle-F80000?style=flat-square\&logo=oracle\&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat-square\&logo=microsoft-sql-server\&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat-square\&logo=mysql\&logoColor=white)
-![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=flat-square\&logo=apache-kafka\&logoColor=white)
-![Debezium](https://img.shields.io/badge/Debezium-CDC-333333?style=flat-square\&logo=redhat\&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square\&logo=redis\&logoColor=white)
-
-### Infrastructure & Security
-
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square\&logo=linux\&logoColor=black)
-![Nginx](https://img.shields.io/badge/Nginx-009639?style=flat-square\&logo=nginx\&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square\&logo=docker\&logoColor=white)
-![Alibaba Cloud](https://img.shields.io/badge/Alibaba_Cloud-FF6A00?style=flat-square\&logo=alibabacloud\&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square\&logo=amazon-aws\&logoColor=white)
-![OpenVPN](https://img.shields.io/badge/OpenVPN-EA7E20?style=flat-square\&logo=openvpn\&logoColor=white)
-![Fortinet](https://img.shields.io/badge/Fortinet-EE3124?style=flat-square\&logo=fortinet\&logoColor=white)
-![MikroTik](https://img.shields.io/badge/MikroTik-B02027?style=flat-square\&logo=mikrotik\&logoColor=white)
+* 🏢 **Current Role:** Database Administrator (DBA) at **PT Link Net Tbk** (Telecom Backbone, 99.98% SLA).
+* 🛡️ **Former Lead:** IT Data Management & Infrastructure Operations Lead at **AFPI Fintech Data Center** (ISO/IEC 27001:2022 & UU PDP).
+* 🌐 **Live Interactive Portfolio & Diagnostic Lab:** **[riprlutuk.github.io](https://riprlutuk.github.io)**
 
 ---
 
-## Featured Work
+## 🏢 Enterprise Production Engineering @ PT Link Net Tbk
 
-### Dynamic Database API Gateway
+Active enterprise database initiatives currently architected and maintained in production:
 
-A concept and implementation direction for a dynamic API platform that helps applications access multiple databases securely without relying heavily on linked servers.
-
-**Focus areas:**
-
-* Multi-database connectors: PostgreSQL, Oracle, SQL Server, MySQL
-* Per-user API scope and access control
-* Token-based authentication
-* Caching and rate limiting
-* Admin dashboard for API and user management
-* Audit logging and observability
-
-### Database Migration & Synchronization
-
-Experienced in handling complex database movement and synchronization across different engines.
-
-**Examples of work:**
-
-* Oracle to PostgreSQL migration
-* PostgreSQL schema comparison and restore workflows
-* CDC pipeline using Kafka and Debezium
-* SQL Server restore, gap analysis, and data recovery support
-* Database performance tuning and index optimization
-
-### Internal Tools & Fullstack Systems
-
-Built and maintained custom internal platforms, dashboards, and business applications using Laravel, .NET Core, PHP, SQL, and modern frontend tooling.
-
-**Common use cases:**
-
-* Admin dashboards
-* Custom CMS
-* Operational reporting
-* API integration
-* Payment gateway integration
-* Data management tools
+* 🔄 **Heterogeneous Database Migration (Oracle 19c &rarr; PostgreSQL 16):**
+  * Automated PL/SQL package/procedure translation to PL/pgSQL, schema mapping, and zero-downtime CDC synchronization.
+* 🍃 **NoSQL Cluster Migration (MongoDB &rarr; AWS DocumentDB):**
+  * Migrated distributed NoSQL document clusters to managed AWS DocumentDB, fine-tuning sharding keys and read-replica scaling.
+* ☁️ **Cross-Cloud Migration (AWS RDS &rarr; TencentDB):**
+  * Planned and executed cloud-to-cloud database migration for infrastructure cost optimization while maintaining 99.98% SLA.
+* 📊 **Centralized Database Fleet Observability (Grafana & Prometheus):**
+  * Built 24/7 monitoring dashboards tracking connection pool saturation, buffer cache hit ratios, lock contention, replication lag, and slow query execution plans.
 
 ---
 
-## Current Focus
+## 🛠️ The "One-Man IT Division" Tech Stack
 
-* Building cleaner and more scalable backend systems
-* Improving database reliability and migration workflows
-* Exploring Go, Rust, and distributed service architecture
-* Designing open-source friendly infrastructure tools
-* Reducing manual DBA work through automation
-
----
-
-## Certifications
-
-* **DQLab** — Dasar Menjadi Data Analyst
-* **Spentera** — Hacking Playground: Pengenalan Dasar Hack
-* **Dicoding** — Pemrograman Dasar Python
+| Domain | Production Technologies & Frameworks |
+| :--- | :--- |
+| **📱 Mobile Development** | **Android Native (Java/Kotlin)**, **Flutter**, Face ID Biometric Attendance, Anti-Mock GPS Spoof Detection, Offline SQLite/WASM caching |
+| **🌐 Modern Frontend & PWA** | **Vue 3 (Composition API)**, **React.js**, **PGlite WASM** (Embedded PostgreSQL), Tailwind CSS, Fastify, HTML5/CSS3 |
+| **⚡ Backend & Microservices** | **Go (Golang)**, **Python (FastAPI / Flask)**, **PHP (Laravel 11 / Livewire)**, **Java**, **C# / .NET Core**, REST, WebSockets |
+| **💾 Core Databases (DBA)** | **PostgreSQL (9–16 HA)**, **Oracle Database 19c (RMAN)**, **Microsoft SQL Server (AlwaysOn)**, **MySQL / MariaDB**, **Redis** |
+| **🔄 Data Platform & CDC** | **Apache Kafka**, **Debezium CDC**, **ClickHouse Columnar OLAP**, Real-Time Stream Ingestion (33.3 GB/s) |
+| **☁️ Cloud & Infrastructure** | **Linux Fleet (Ubuntu, Debian, RHEL)**, **Docker / Podman**, **AWS**, **TencentDB**, **Alibaba Cloud**, Nginx, Caddy |
+| **🛡️ Cybersecurity & Compliance** | **Lead ISO/IEC 27001:2022 (ISMS)**, **UU No. 27/2022 (UU PDP)**, **Fortinet FortiGate**, **StrongSwan IPsec VPN** (100+ Tunnels), **pgAudit** |
 
 ---
 
-## GitHub Stats
+## 🌟 Flagship Production Platforms
 
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api?username=RiprLutuk&show_icons=true&theme=transparent&hide_border=true&count_private=true" alt="GitHub Stats" />
-</p>
-
-<p align="left">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=RiprLutuk&layout=compact&theme=transparent&hide_border=true" alt="Top Languages" />
-</p>
+<table>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/RiprLutuk/DDAG">⚡ DDAG (Go API Gateway)</a></h3>
+      <p>Zero-Trust Dynamic SQL-to-REST API Gateway written in Go. Dynamically reflects schemas and exposes PostgreSQL, MSSQL, Oracle, and MySQL as governed REST APIs with JWT & RBAC (< 2.5ms overhead).</p>
+      <code>Go</code> • <code>PostgreSQL</code> • <code>MSSQL</code> • <code>Oracle</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/RiprLutuk/ch-olap-pipeline">🔄 ch-olap-pipeline</a></h3>
+      <p>Universal real-time Change Data Capture (CDC) streaming pipeline capturing transaction logs from OLTP into ClickHouse columnar storage for sub-second analytical reporting over 50M+ rows.</p>
+      <code>Debezium</code> • <code>Kafka</code> • <code>ClickHouse OLAP</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/RiprLutuk/openorg">🏛️ OpenOrg (Governance CMS)</a></h3>
+      <p>Single-tenant organization governance platform with digital membership ID (KTA), SKP credentialing, and tamper-resistant cryptographic certificate verification (SHA-256).</p>
+      <code>TypeScript</code> • <code>Headless CMS</code> • <code>Digital KTA</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/RiprLutuk/WargaHub">🏡 WargaHub (Civic Ledger)</a></h3>
+      <p>Transparent budget ledger and digital musyawarah consensus for RT/RW neighborhoods powered by embedded offline-capable WASM PostgreSQL (PGlite).</p>
+      <code>Vue 3 PWA</code> • <code>Fastify</code> • <code>PGlite WASM</code>
+    </td>
+  </tr>
+  <tr>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/RiprLutuk/PasPapan">📍 PasPapan (HRIS Biometrics)</a></h3>
+      <p>Enterprise workforce operations featuring Anti-Mock GPS & Face ID attendance (0.00% spoof), automated 1-click payroll calculation, and multi-branch management.</p>
+      <code>Laravel 11</code> • <code>Livewire</code> • <code>Face Biometrics</code>
+    </td>
+    <td width="50%" valign="top">
+      <h3><a href="https://github.com/RiprLutuk/pg2ora_debezium_kafka">🔄 pg2ora-cdc</a></h3>
+      <p>High-availability Change Data Capture engine synchronizing real-time financial ledger mutations from PostgreSQL to Oracle Database 19c with schema mapping and DLQ replay.</p>
+      <code>Debezium</code> • <code>PostgreSQL</code> • <code>Oracle 19c</code>
+    </td>
+  </tr>
+</table>
 
 ---
 
-> “Talk is cheap. Show me the code.”
-> — Linus Torvalds
+## 📊 Live Interactive Portfolio Experience
+
+Explore live diagnostic simulations and tools on **[riprlutuk.github.io](https://riprlutuk.github.io)**:
+
+* 🔬 **[DBA Diagnostic Lab](https://riprlutuk.github.io/#dba-lab):** 10M-row SQL query tuning, visual execution plan analysis, and SRE resilience drills.
+* 💰 **[Cloud ROI Calculator](https://riprlutuk.github.io/#roi-calculator):** Estimate infrastructure cost reduction and latency speedup with 1-click enterprise presets.
+* 🎯 **[Recruiter 1-Click Matcher](https://riprlutuk.github.io/#recruiter-hub):** Interactive candidate compatibility scanner and technical challenge evaluator.
+* 💻 **[Cyber CLI Terminal](https://riprlutuk.github.io):** Press `Ctrl+K` on the website to run UNIX commands (`neofetch`, `psql`, `migrations`, `mobile`, `ats`).
+
+---
+
+<div align="center">
+
+```
+"Architecting resilient systems that scale silently, operate securely, and never lose a single byte of data."
+```
+
+**Let's connect:** [Telegram (@riprlutuk)](https://t.me/riprlutuk) • [LinkedIn](https://linkedin.com/in/riprlutuk) • [Email](mailto:rizqy.pra85@gmail.com) • [Website](https://riprlutuk.github.io)
+
+</div>
