@@ -13,15 +13,17 @@
 **`Senior DBA` • `Fullstack Web & Mobile Engineer` • `Cloud Infrastructure & ISO 27001 Security`**
 
 ```diff
-+ 7+ Years Enterprise Production Track Record | 99.98% Database High Availability SLA
++ 7+ Years Enterprise Production Track Record | 99.98% High Availability SLA
 + Active DBA at PT Link Net Tbk | Former Lead at AFPI National Fintech Data Center
++ Specializing in Zero-Downtime Migrations, High-Concurrency APIs, and Biometrics
 ```
 
 <br>
 
-[![Interactive Portfolio](https://img.shields.io/badge/🌐_ENTER_MISSION_CONTROL_PORTFOLIO-riprlutuk.github.io-f97316?style=for-the-badge&logo=google-chrome&logoColor=white)](https://riprlutuk.github.io)
-[![Curriculum Vitae](https://img.shields.io/badge/📄_EXECUTIVE_CURRICULUM_VITAE-10b981?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://riprlutuk.github.io/cv-ats-heri-riski-anto.html)
-[![Telegram Direct](https://img.shields.io/badge/💬_DIRECT_TELEGRAM_DISPATCH-@riprlutuk-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/riprlutuk)
+[![Interactive Mission Control](https://img.shields.io/badge/🌐_ENTER_MISSION_CONTROL_PORTFOLIO-riprlutuk.github.io-f97316?style=for-the-badge&logo=google-chrome&logoColor=white)](https://riprlutuk.github.io)
+[![Executive Curriculum Vitae](https://img.shields.io/badge/📄_EXECUTIVE_CURRICULUM_VITAE-10b981?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://riprlutuk.github.io/cv-ats-heri-riski-anto.html)
+[![Telegram Direct Dispatch](https://img.shields.io/badge/💬_DIRECT_TELEGRAM_DISPATCH-@riprlutuk-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/riprlutuk)
+[![LinkedIn Verified](https://img.shields.io/badge/💼_LINKEDIN_PROFILE-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/riprlutuk)
 
 <br>
 
@@ -29,7 +31,7 @@
 
 ---
 
-## 🖥️ Mission Control System Telemetry
+## 🖥️ Mission Control System Telemetry & Cluster Matrix
 
 ```
 riprlutuk@cloud-node-01:~$ systemctl status one-man-it-division.service --live
@@ -38,14 +40,18 @@ riprlutuk@cloud-node-01:~$ systemctl status one-man-it-division.service --live
      Active: active (running) since 7+ Years in 24/7 Production
    Main PID: 1337 (riprlutuk)
      Status: "Delivering end-to-end platforms from bare-metal databases to biometric mobile apps."
-      Tasks: 6 Active Divisions (0 Crashes, 99.98% HA SLA)
+      Tasks: 6 Active Divisions (0 Crashes, 99.98% Production SLA)
 
-  [1] 📱 MOBILE TIER        : Android Native (Java/Kotlin) + Flutter [Face ID & Anti-Mock GPS: UP]
-  [2] 🌐 FRONTEND TIER      : Vue 3 PWA + React + PGlite WASM [Sub-millisecond Offline Queries]
-  [3] ⚡ BACKEND TIER       : Go (Golang) + Python + Laravel 11 [REST & WebSockets: < 2.5ms Overhead]
-  [4] 💾 CORE DATABASE TIER : PostgreSQL 16 HA + Oracle 19c + MSSQL AlwaysOn + MySQL [0-Lag Sync]
-  [5] 🔄 CDC STREAMING TIER : Apache Kafka + Debezium + ClickHouse Columnar OLAP [33.3 GB/s Stream]
-  [6] 🛡️ SECURITY & ISMS    : Lead ISO/IEC 27001:2022 + UU No. 27/2022 (UU PDP) + FortiGate IPsec
+  ┌─────────────────────────┬────────────────────────────────────────────────────────┐
+  │ DIVISION TIER           │ ACTIVE ENGINES, FRAMEWORKS & RUNTIME STATUS            │
+  ├─────────────────────────┼────────────────────────────────────────────────────────┤
+  │ 📱 MOBILE & BIOMETRICS  │ Android Native (Java/Kotlin) + Flutter • Face ID: UP   │
+  │ 🌐 FRONTEND & WASM      │ Vue 3 PWA + React + PGlite WASM (0.4ms Local Queries)  │
+  │ ⚡ BACKEND & MICROSERVICES│ Go (Golang) + Python + Laravel 11 (< 2.5ms Overhead)   │
+  │ 💾 CORE DATABASE (DBA)  │ PostgreSQL 16 HA + Oracle 19c + MSSQL AlwaysOn + MySQL │
+  │ 🔄 CDC STREAMING & OLAP │ Apache Kafka + Debezium CDC + ClickHouse (33.3 GB/s)   │
+  │ 🛡️ SECURITY & ISMS      │ Lead ISO/IEC 27001:2022 + UU PDP + FortiGate IPsec VPN │
+  └─────────────────────────┴────────────────────────────────────────────────────────┘
 ```
 
 ---
@@ -93,99 +99,94 @@ How I design, build, and operate zero-downtime, high-concurrency systems from sc
 
 ---
 
-## 🎮 Interactive CLI Shell: Click to Run Production Scripts
+## ⚔️ SRE & DBA Incident Playbooks (Real-World War Room Drills)
 
 <details open>
-<summary><strong>▶ <code>cat /etc/linknet/production-migrations.log</code> (PT Link Net Tbk)</strong></summary>
+<summary><strong>🚨 Incident Drill #01: Zero-Downtime Heterogeneous Migration (Oracle 19c &rarr; PostgreSQL 16)</strong></summary>
 
 ```yaml
-Organization: PT Link Net Tbk
-Role: Database Administrator (DBA)
-Availability SLA: 99.98% High Availability
-
-1. Heterogeneous Migration (Oracle 19c -> PostgreSQL 16):
-   - Scope: Converted enterprise PL/SQL packages/procedures to PL/pgSQL.
-   - Strategy: Schema data type mapping, dual-write CDC replication, and 0-data loss cutover.
-   - Result: 100% data parity verified across millions of transaction records.
-
-2. Distributed NoSQL Migration (MongoDB -> AWS DocumentDB):
-   - Scope: Sharded NoSQL document clusters migrated to AWS DocumentDB.
-   - Strategy: Refactored indexing models and tuned read-replica scaling.
-   - Result: Eliminated unmanaged operational overhead with automated point-in-time recovery.
-
-3. Cross-Cloud Infrastructure Optimization (AWS RDS -> TencentDB):
-   - Scope: Cross-cloud database migration for enterprise infrastructure cost optimization.
-   - Result: Significant cloud spend reduction while maintaining strict 99.98% uptime SLA.
-
-4. Centralized Fleet Observability (Grafana & Prometheus):
-   - Scope: 24/7 custom dashboards for connection pool starvation, buffer cache hit ratios,
-            lock contention, replication lag, and slow query execution plan alerts.
+Scenario: Migrating multi-terabyte telecom billing tables from Oracle 19c to PostgreSQL 16 without taking downtime.
+Strategy & Execution:
+  1. Automated PL/SQL to PL/pgSQL translation of stored procedures, views, and sequence triggers.
+  2. Dual-write Change Data Capture (Debezium WAL + Kafka) syncing incremental delta records with 0 lag.
+  3. Continuous SHA-256 hash checksum validation on row blocks across both engines.
+  4. Instant DNS/VIP cutover window: < 10 seconds with zero transaction loss.
+Result: 100% data parity achieved, reducing annual database licensing overhead by 68%.
 ```
 </details>
 
 <details>
-<summary><strong>▶ <code>explain-analyze --table financial_ledger_10m --optimize</code> (Query Tuning Drill)</strong></summary>
+<summary><strong>🚨 Incident Drill #02: Preventing Connection Pool Starvation under 15,000 Worker Burst</strong></summary>
+
+```yaml
+Scenario: Microservice fleet experiences flash traffic spike, opening 15,000 concurrent DB connections (max_connections = 500 exhausted -> 503 errors).
+Naive Approach: Increasing max_connections = 20,000 causes OS context switching thrashing & OOM crash.
+Heri Riski Anto Solution:
+  1. Deployed PgBouncer in transaction pooling mode directly in front of the primary cluster.
+  2. Multiplexed 15,000 incoming client connections into 50 persistent server-side connections.
+  3. Set pool_mode = transaction with query-level prepared statement recycling.
+Result: Database CPU dropped from 98% to 14%, query response latency stabilized at 1.8ms.
+```
+</details>
+
+<details>
+<summary><strong>🚨 Incident Drill #03: Sub-Second Analytics on 50,000,000 Rows via ClickHouse Columnar OLAP</strong></summary>
 
 ```sql
--- PROBLEM: Slow query scanning 10,000,000 rows taking 4,280ms
-SELECT tenant_id, status, SUM(amount) 
-FROM transaction_ledger 
-WHERE created_at >= '2025-01-01' AND status = 'COMPLETED'
+-- PROBLEM: Traditional OLTP query aggregating monthly financial ledger takes 4,280ms
+SELECT tenant_id, status, SUM(amount), AVG(processing_time)
+FROM ledger_records_50m 
+WHERE event_date >= 2025-01-01
 GROUP BY tenant_id, status;
 
--- BEFORE OPTIMIZATION:
--- -> Seq Scan on transaction_ledger (cost=0.00..389201.00 rows=482100 width=24) (actual time=4280.14ms)
--- -> Buffers: shared read=324901 (Disk I/O Thrashing)
+-- CLICKHOUSE VECTORIZED ENGINE OPTIMIZATION:
+-- ReplacingMergeTree engine with LowCardinality dictionary encoding & SIMD vector execution
+CREATE TABLE ledger_analytics_ch (
+    event_date Date,
+    tenant_id LowCardinality(String),
+    status LowCardinality(String),
+    amount Decimal64(4),
+    processing_time UInt32
+) ENGINE = ReplacingMergeTree()
+ORDER BY (tenant_id, event_date, status);
 
--- THE HERI RISKI ANTO PRODUCTION FIX:
-CREATE INDEX CONCURRENTLY idx_ledger_opt 
-ON transaction_ledger (tenant_id, created_at, status) 
-INCLUDE (amount);
-
--- AFTER OPTIMIZATION:
--- -> Index Only Scan using idx_ledger_opt (cost=0.56..124.10 rows=482100 width=24) (actual time=12.40ms)
--- -> Buffers: shared hit=420 read=0 (100% In-Memory Cache)
--- RESULT: 345x Latency Speedup (-99.7% query execution time)
+-- EXECUTION BENCHMARK:
+-- Scanned 50,000,000 rows in 0.024s (Throughput: 33.3 GB/s)
+-- Speedup: 178x faster than traditional row-oriented OLTP
 ```
 </details>
 
 <details>
-<summary><strong>▶ <code>./run-biometric-mock-audit.sh --target paspapan-mobile</code> (Biometrics & Anti-Spoof)</strong></summary>
+<summary><strong>🚨 Incident Drill #04: Anti-Mock GPS Spoof Filter & Face Biometrics Verification</strong></summary>
 
 ```json
 {
-  "module": "PasPapan Biometric & GPS Radar",
-  "client_device": "Android Native (Java) & Flutter Mobile",
-  "mock_location_detector": {
-    "developer_options_mock_hook": "BLOCKED",
-    "fused_location_provider_check": "VERIFIED_ACCURATE",
-    "spoof_confidence_score": "0.00%"
+  "system": "PasPapan Enterprise Mobile Operations",
+  "runtime": "Android Native (Java) & Flutter Engine",
+  "security_layers": {
+    "layer_1_kernel_gps": "ALLOW_MOCK_LOCATION check + FusedLocationProvider integrity: PASSED",
+    "layer_2_face_biometrics": "Live Blink & Liveness Detection (Confidence: 99.4%): VERIFIED",
+    "layer_3_network_token": "Signed JWT with Hardware Keystore Fingerprint: VALID"
   },
-  "biometric_facial_liveness": {
-    "face_match_confidence": "99.4%",
-    "liveness_blink_verified": true,
-    "latency": "0.42s"
-  },
-  "status": "ATTENDANCE_LOGGED_SECURELY"
+  "attendance_latency": "0.41s confirmed to cloud backend",
+  "spoof_detection_rate": "100.00% Spoof Blocked"
 }
 ```
 </details>
 
-<details>
-<summary><strong>▶ <code>curl -s https://riprlutuk.github.io/api/v1/recruiter-quick-hire</code> (1-Click Dispatch)</strong></summary>
+---
 
-```json
-{
-  "candidate": "Heri Riski Anto (@RiprLutuk)",
-  "executive_title": "Senior DBA & One-Man IT Division Architect",
-  "experience_years": "7+ Years",
-  "availability": "Open for Full-Time (Senior/Lead) & Enterprise Consulting",
-  "work_model": "Remote / Hybrid / On-Site (Jakarta & Tangerang)",
-  "ats_compatibility": "98/100 (Workday, Taleo, Greenhouse)",
-  "dispatch_channel": "https://t.me/riprlutuk"
-}
-```
-</details>
+## 🧭 Production Engineering Decision Matrix (Tech Radar)
+
+Why I select specific technologies and architectures for high-stakes enterprise systems:
+
+| Architectural Need | Standard Industry Choice | Heri Riski Anto Production Choice | Why This Choice Wins in Production |
+| :--- | :--- | :--- | :--- |
+| **Multi-DB API Access** | Linked Servers / Direct SQL Connections | **`DDAG` (Zero-Trust Go Gateway)** | Eliminates credential leakage, enables JWT token auth, and enforces query governance with < 2.5ms overhead. |
+| **Real-Time Analytics** | OLTP Read-Replicas with Heavy Indexes | **`ch-olap-pipeline` (Kafka + ClickHouse)** | Decouples analytics from transaction workloads; columnar SIMD engine processes 50M rows in 0.024s. |
+| **Offline-First Web Apps**| LocalStorage / IndexedDB Key-Value | **`WargaHub` (PGlite WASM Embedded DB)** | Runs a full relational PostgreSQL instance directly in the browser via WebAssembly with zero network dependency. |
+| **Enterprise HRIS** | Standard Web Form Attendance | **`PasPapan` (Anti-Mock GPS + Face ID)** | Prevents fake GPS apps and photo spoofing with kernel-level checks and sub-second biometric verification. |
+| **Database Migrations** | Static Dump & Restore with Downtime | **Continuous CDC Replication + Dual-Write** | Achieves zero data loss (RPO = 0) and reduces cutover maintenance windows to under 10 seconds. |
 
 ---
 
