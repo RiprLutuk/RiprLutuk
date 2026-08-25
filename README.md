@@ -1,8 +1,8 @@
 <div align="center">
 
-<!-- Animated Cyberpunk Mission Control SVG Banner -->
+<!-- Cyberpunk Mission Control 2x Retina Banner -->
 <a href="https://riprlutuk.github.io">
-  <img src="https://raw.githubusercontent.com/RiprLutuk/RiprLutuk/main/assets/cyber-mission-control.svg" alt="Heri Riski Anto - The One-Man IT Division Architect" width="100%" />
+  <img src="https://raw.githubusercontent.com/RiprLutuk/RiprLutuk/main/assets/cyber-mission-control.png" alt="Heri Riski Anto - The One-Man IT Division Architect" width="100%" />
 </a>
 
 <br><br>
@@ -19,7 +19,7 @@
 ## 🏛️ Real-Time Production Architecture Pipeline
 
 <div align="center">
-  <img src="https://raw.githubusercontent.com/RiprLutuk/RiprLutuk/main/assets/architecture-radar.svg" alt="Real-Time Production Data Pipeline" width="100%" />
+  <img src="https://raw.githubusercontent.com/RiprLutuk/RiprLutuk/main/assets/architecture-radar.png" alt="Real-Time Production Data Pipeline" width="100%" />
 </div>
 
 ---
