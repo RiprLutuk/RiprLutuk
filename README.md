@@ -1,120 +1,215 @@
 <div align="center">
 
-# ⚡ Heri Riski Anto (`@RiprLutuk`)
-### Senior Database Administrator (DBA) • Fullstack & Mobile App Architect
-**The "One-Man IT Division" Platform Engineer with 7+ Years of Production Experience**
+```
+  ██████╗ ██╗██████╗ ██████╗ ██╗     ██╗   ██╗████████╗██╗   ██╗██╗  ██╗
+  ██╔══██╗██║██╔══██╗██╔══██╗██║     ██║   ██║╚══██╔══╝██║   ██║██║ ██╔╝
+  ██████╔╝██║██████╔╝██████╔╝██║     ██║   ██║   ██║   ██║   ██║█████╔╝ 
+  ██╔══██╗██║██╔═══╝ ██╔══██╗██║     ██║   ██║   ██║   ██║   ██║██╔═██╗ 
+  ██║  ██║██║██║     ██║  ██║███████╗╚██████╔╝   ██║   ╚██████╔╝██║  ██╗
+  ╚═╝  ╚═╝╚═╝╚═╝     ╚═╝  ╚═╝╚══════╝ ╚═════╝    ╚═╝    ╚═════╝ ╚═╝  ╚═╝
+```
 
-[![Interactive Portfolio](https://img.shields.io/badge/🌐_Interactive_Portfolio-riprlutuk.github.io-f97316?style=for-the-badge&logo=google-chrome&logoColor=white)](https://riprlutuk.github.io)
-[![Curriculum Vitae](https://img.shields.io/badge/📄_Executive_Resume-View_PDF-10b981?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://riprlutuk.github.io/cv-ats-heri-riski-anto.html)
-[![Telegram](https://img.shields.io/badge/💬_Telegram-@riprlutuk-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/riprlutuk)
-[![LinkedIn](https://img.shields.io/badge/💼_LinkedIn-Heri_Riski_Anto-0a66c2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/riprlutuk)
-[![Email](https://img.shields.io/badge/✉️_Email-rizqy.pra85@gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:rizqy.pra85@gmail.com)
+### ⚡ HERI RISKI ANTO // THE "ONE-MAN IT DIVISION" PLATFORM ARCHITECT
+**`Senior DBA` • `Fullstack Web & Mobile Engineer` • `Cloud Infrastructure & ISO 27001 Security`**
+
+```diff
++ 7+ Years Enterprise Production Track Record | 99.98% Database High Availability SLA
++ Active DBA at PT Link Net Tbk | Former Lead at AFPI National Fintech Data Center
+```
 
 <br>
 
-```
-┌──────────────────────────────────────────────────────────────────────────────────┐
-│  📱 Mobile (Java/Flutter)  │  🌐 Frontend (Vue 3/React)  │  ⚡ Backend (Go/Laravel)   │
-│  💾 Core DBA (Postgres/Ora)│  🔄 CDC OLAP (ClickHouse)   │  🛡️ Security (ISO 27001)   │
-└──────────────────────────────────────────────────────────────────────────────────┘
-```
+[![Interactive Portfolio](https://img.shields.io/badge/🌐_ENTER_MISSION_CONTROL_PORTFOLIO-riprlutuk.github.io-f97316?style=for-the-badge&logo=google-chrome&logoColor=white)](https://riprlutuk.github.io)
+[![Curriculum Vitae](https://img.shields.io/badge/📄_EXECUTIVE_CURRICULUM_VITAE-10b981?style=for-the-badge&logo=adobe-acrobat-reader&logoColor=white)](https://riprlutuk.github.io/cv-ats-heri-riski-anto.html)
+[![Telegram Direct](https://img.shields.io/badge/💬_DIRECT_TELEGRAM_DISPATCH-@riprlutuk-0088cc?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/riprlutuk)
+
+<br>
 
 </div>
 
 ---
 
-## 🚀 Executive Summary
+## 🖥️ Mission Control System Telemetry
 
-Battle-tested **Fullstack Developer, Mobile App Engineer, Senior Database Administrator (DBA), and Cloud Infrastructure Architect** with **7+ years of continuous production experience**. 
+```
+riprlutuk@cloud-node-01:~$ systemctl status one-man-it-division.service --live
+● one-man-it-division.service - Full-Lifecycle Engineering Daemon
+     Loaded: loaded (/etc/systemd/system/one-man-it-division.service; enabled)
+     Active: active (running) since 7+ Years in 24/7 Production
+   Main PID: 1337 (riprlutuk)
+     Status: "Delivering end-to-end platforms from bare-metal databases to biometric mobile apps."
+      Tasks: 6 Active Divisions (0 Crashes, 99.98% HA SLA)
 
-Capable of single-handedly engineering and operating the entire tech stack — from native Android (Java/Kotlin) and Flutter mobile apps with biometric security, high-throughput Go and Python microservices, to enterprise multi-engine database high availability (PostgreSQL, MSSQL, Oracle, MySQL), cloud migrations, and ISO/IEC 27001 fintech compliance.
-
-* 🏢 **Current Role:** Database Administrator (DBA) at **PT Link Net Tbk** (Telecom Backbone, 99.98% SLA).
-* 🛡️ **Former Lead:** IT Data Management & Infrastructure Operations Lead at **AFPI Fintech Data Center** (ISO/IEC 27001:2022 & UU PDP).
-* 🌐 **Live Interactive Portfolio & Diagnostic Lab:** **[riprlutuk.github.io](https://riprlutuk.github.io)**
-
----
-
-## 🏢 Enterprise Production Engineering @ PT Link Net Tbk
-
-Active enterprise database initiatives currently architected and maintained in production:
-
-* 🔄 **Heterogeneous Database Migration (Oracle 19c &rarr; PostgreSQL 16):**
-  * Automated PL/SQL package/procedure translation to PL/pgSQL, schema mapping, and zero-downtime CDC synchronization.
-* 🍃 **NoSQL Cluster Migration (MongoDB &rarr; AWS DocumentDB):**
-  * Migrated distributed NoSQL document clusters to managed AWS DocumentDB, fine-tuning sharding keys and read-replica scaling.
-* ☁️ **Cross-Cloud Migration (AWS RDS &rarr; TencentDB):**
-  * Planned and executed cloud-to-cloud database migration for infrastructure cost optimization while maintaining 99.98% SLA.
-* 📊 **Centralized Database Fleet Observability (Grafana & Prometheus):**
-  * Built 24/7 monitoring dashboards tracking connection pool saturation, buffer cache hit ratios, lock contention, replication lag, and slow query execution plans.
+  [1] 📱 MOBILE TIER        : Android Native (Java/Kotlin) + Flutter [Face ID & Anti-Mock GPS: UP]
+  [2] 🌐 FRONTEND TIER      : Vue 3 PWA + React + PGlite WASM [Sub-millisecond Offline Queries]
+  [3] ⚡ BACKEND TIER       : Go (Golang) + Python + Laravel 11 [REST & WebSockets: < 2.5ms Overhead]
+  [4] 💾 CORE DATABASE TIER : PostgreSQL 16 HA + Oracle 19c + MSSQL AlwaysOn + MySQL [0-Lag Sync]
+  [5] 🔄 CDC STREAMING TIER : Apache Kafka + Debezium + ClickHouse Columnar OLAP [33.3 GB/s Stream]
+  [6] 🛡️ SECURITY & ISMS    : Lead ISO/IEC 27001:2022 + UU No. 27/2022 (UU PDP) + FortiGate IPsec
+```
 
 ---
 
-## 🛠️ The "One-Man IT Division" Tech Stack
+## 🏛️ End-to-End Platform Architecture Blueprint
 
-| Domain | Production Technologies & Frameworks |
-| :--- | :--- |
-| **📱 Mobile Development** | **Android Native (Java/Kotlin)**, **Flutter**, Face ID Biometric Attendance, Anti-Mock GPS Spoof Detection, Offline SQLite/WASM caching |
-| **🌐 Modern Frontend & PWA** | **Vue 3 (Composition API)**, **React.js**, **PGlite WASM** (Embedded PostgreSQL), Tailwind CSS, Fastify, HTML5/CSS3 |
-| **⚡ Backend & Microservices** | **Go (Golang)**, **Python (FastAPI / Flask)**, **PHP (Laravel 11 / Livewire)**, **Java**, **C# / .NET Core**, REST, WebSockets |
-| **💾 Core Databases (DBA)** | **PostgreSQL (9–16 HA)**, **Oracle Database 19c (RMAN)**, **Microsoft SQL Server (AlwaysOn)**, **MySQL / MariaDB**, **Redis** |
-| **🔄 Data Platform & CDC** | **Apache Kafka**, **Debezium CDC**, **ClickHouse Columnar OLAP**, Real-Time Stream Ingestion (33.3 GB/s) |
-| **☁️ Cloud & Infrastructure** | **Linux Fleet (Ubuntu, Debian, RHEL)**, **Docker / Podman**, **AWS**, **TencentDB**, **Alibaba Cloud**, Nginx, Caddy |
-| **🛡️ Cybersecurity & Compliance** | **Lead ISO/IEC 27001:2022 (ISMS)**, **UU No. 27/2022 (UU PDP)**, **Fortinet FortiGate**, **StrongSwan IPsec VPN** (100+ Tunnels), **pgAudit** |
+How I design, build, and operate zero-downtime, high-concurrency systems from scratch:
 
----
-
-## 🌟 Flagship Production Platforms
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/RiprLutuk/DDAG">⚡ DDAG (Go API Gateway)</a></h3>
-      <p>Zero-Trust Dynamic SQL-to-REST API Gateway written in Go. Dynamically reflects schemas and exposes PostgreSQL, MSSQL, Oracle, and MySQL as governed REST APIs with JWT & RBAC (< 2.5ms overhead).</p>
-      <code>Go</code> • <code>PostgreSQL</code> • <code>MSSQL</code> • <code>Oracle</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/RiprLutuk/ch-olap-pipeline">🔄 ch-olap-pipeline</a></h3>
-      <p>Universal real-time Change Data Capture (CDC) streaming pipeline capturing transaction logs from OLTP into ClickHouse columnar storage for sub-second analytical reporting over 50M+ rows.</p>
-      <code>Debezium</code> • <code>Kafka</code> • <code>ClickHouse OLAP</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/RiprLutuk/openorg">🏛️ OpenOrg (Governance CMS)</a></h3>
-      <p>Single-tenant organization governance platform with digital membership ID (KTA), SKP credentialing, and tamper-resistant cryptographic certificate verification (SHA-256).</p>
-      <code>TypeScript</code> • <code>Headless CMS</code> • <code>Digital KTA</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/RiprLutuk/WargaHub">🏡 WargaHub (Civic Ledger)</a></h3>
-      <p>Transparent budget ledger and digital musyawarah consensus for RT/RW neighborhoods powered by embedded offline-capable WASM PostgreSQL (PGlite).</p>
-      <code>Vue 3 PWA</code> • <code>Fastify</code> • <code>PGlite WASM</code>
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/RiprLutuk/PasPapan">📍 PasPapan (HRIS Biometrics)</a></h3>
-      <p>Enterprise workforce operations featuring Anti-Mock GPS & Face ID attendance (0.00% spoof), automated 1-click payroll calculation, and multi-branch management.</p>
-      <code>Laravel 11</code> • <code>Livewire</code> • <code>Face Biometrics</code>
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/RiprLutuk/pg2ora_debezium_kafka">🔄 pg2ora-cdc</a></h3>
-      <p>High-availability Change Data Capture engine synchronizing real-time financial ledger mutations from PostgreSQL to Oracle Database 19c with schema mapping and DLQ replay.</p>
-      <code>Debezium</code> • <code>PostgreSQL</code> • <code>Oracle 19c</code>
-    </td>
-  </tr>
-</table>
+```
+                  ┌──────────────────────────────────────────────────────────┐
+                  │                 CLIENT APPLICATION TIER                  │
+                  │   Android Native (Java/Kotlin)  •  Flutter Cross-Platform│
+                  │     Face ID Biometrics  •  Anti-Mock GPS Spoof Filter    │
+                  │         Vue 3 PWA Client (Embedded PGlite WASM)          │
+                  └─────────────────────────────┬────────────────────────────┘
+                                                │ HTTPS / WSS / gRPC
+                                                ▼
+                  ┌──────────────────────────────────────────────────────────┐
+                  │              ZERO-TRUST GO API GATEWAY (DDAG)            │
+                  │   Dynamic SQL Schema Reflection  •  JWT Auth & RBAC      │
+                  │   PgBouncer Dynamic Connection Multiplexing (< 2.5ms)    │
+                  └──────────────┬───────────────────────────┬───────────────┘
+                                 │                           │
+                   Read/Write OLTP                           │ Change Data Capture (WAL)
+                                 │                           │
+                                 ▼                           ▼
+  ┌──────────────────────────────────────────────┐  ┌────────────────────────────────┐
+  │         CORE MULTI-ENGINE DATABASE HA        │  │   REAL-TIME STREAMING & OLAP   │
+  │  • PostgreSQL 16 Streaming Primary/Replica   │  │  • Apache Kafka Distributed Log│
+  │  • Oracle 19c ARCHIVELOG & RMAN Backup       │──►  • Debezium CDC Engine (0-Lag) │
+  │  • MS SQL Server AlwaysOn Synchronized       │  │  • ClickHouse Columnar Storage │
+  │  • Redis In-Memory Caching & Session Store   │  │    (Sub-second query over 50M) │
+  └──────────────────────┬───────────────────────┘  └────────────────┬───────────────┘
+                         │                                           │
+                         └─────────────────────┬─────────────────────┘
+                                               │
+                                               ▼
+                  ┌──────────────────────────────────────────────────────────┐
+                  │         ENTERPRISE OBSERVABILITY & SECURITY GOVERNANCE   │
+                  │  • Centralized Grafana & Prometheus Fleet Dashboards     │
+                  │  • Fortinet FortiGate & StrongSwan IPsec (100+ Tunnels)   │
+                  │  • Lead ISO/IEC 27001:2022 ISMS & UU PDP Data Protection │
+                  └──────────────────────────────────────────────────────────┘
+```
 
 ---
 
-## 📊 Live Interactive Portfolio Experience
+## 🎮 Interactive CLI Shell: Click to Run Production Scripts
 
-Explore live diagnostic simulations and tools on **[riprlutuk.github.io](https://riprlutuk.github.io)**:
+<details open>
+<summary><strong>▶ <code>cat /etc/linknet/production-migrations.log</code> (PT Link Net Tbk)</strong></summary>
 
-* 🔬 **[DBA Diagnostic Lab](https://riprlutuk.github.io/#dba-lab):** 10M-row SQL query tuning, visual execution plan analysis, and SRE resilience drills.
-* 💰 **[Cloud ROI Calculator](https://riprlutuk.github.io/#roi-calculator):** Estimate infrastructure cost reduction and latency speedup with 1-click enterprise presets.
-* 🎯 **[Recruiter 1-Click Matcher](https://riprlutuk.github.io/#recruiter-hub):** Interactive candidate compatibility scanner and technical challenge evaluator.
-* 💻 **[Cyber CLI Terminal](https://riprlutuk.github.io):** Press `Ctrl+K` on the website to run UNIX commands (`neofetch`, `psql`, `migrations`, `mobile`, `ats`).
+```yaml
+Organization: PT Link Net Tbk
+Role: Database Administrator (DBA)
+Availability SLA: 99.98% High Availability
+
+1. Heterogeneous Migration (Oracle 19c -> PostgreSQL 16):
+   - Scope: Converted enterprise PL/SQL packages/procedures to PL/pgSQL.
+   - Strategy: Schema data type mapping, dual-write CDC replication, and 0-data loss cutover.
+   - Result: 100% data parity verified across millions of transaction records.
+
+2. Distributed NoSQL Migration (MongoDB -> AWS DocumentDB):
+   - Scope: Sharded NoSQL document clusters migrated to AWS DocumentDB.
+   - Strategy: Refactored indexing models and tuned read-replica scaling.
+   - Result: Eliminated unmanaged operational overhead with automated point-in-time recovery.
+
+3. Cross-Cloud Infrastructure Optimization (AWS RDS -> TencentDB):
+   - Scope: Cross-cloud database migration for enterprise infrastructure cost optimization.
+   - Result: Significant cloud spend reduction while maintaining strict 99.98% uptime SLA.
+
+4. Centralized Fleet Observability (Grafana & Prometheus):
+   - Scope: 24/7 custom dashboards for connection pool starvation, buffer cache hit ratios,
+            lock contention, replication lag, and slow query execution plan alerts.
+```
+</details>
+
+<details>
+<summary><strong>▶ <code>explain-analyze --table financial_ledger_10m --optimize</code> (Query Tuning Drill)</strong></summary>
+
+```sql
+-- PROBLEM: Slow query scanning 10,000,000 rows taking 4,280ms
+SELECT tenant_id, status, SUM(amount) 
+FROM transaction_ledger 
+WHERE created_at >= '2025-01-01' AND status = 'COMPLETED'
+GROUP BY tenant_id, status;
+
+-- BEFORE OPTIMIZATION:
+-- -> Seq Scan on transaction_ledger (cost=0.00..389201.00 rows=482100 width=24) (actual time=4280.14ms)
+-- -> Buffers: shared read=324901 (Disk I/O Thrashing)
+
+-- THE HERI RISKI ANTO PRODUCTION FIX:
+CREATE INDEX CONCURRENTLY idx_ledger_opt 
+ON transaction_ledger (tenant_id, created_at, status) 
+INCLUDE (amount);
+
+-- AFTER OPTIMIZATION:
+-- -> Index Only Scan using idx_ledger_opt (cost=0.56..124.10 rows=482100 width=24) (actual time=12.40ms)
+-- -> Buffers: shared hit=420 read=0 (100% In-Memory Cache)
+-- RESULT: 345x Latency Speedup (-99.7% query execution time)
+```
+</details>
+
+<details>
+<summary><strong>▶ <code>./run-biometric-mock-audit.sh --target paspapan-mobile</code> (Biometrics & Anti-Spoof)</strong></summary>
+
+```json
+{
+  "module": "PasPapan Biometric & GPS Radar",
+  "client_device": "Android Native (Java) & Flutter Mobile",
+  "mock_location_detector": {
+    "developer_options_mock_hook": "BLOCKED",
+    "fused_location_provider_check": "VERIFIED_ACCURATE",
+    "spoof_confidence_score": "0.00%"
+  },
+  "biometric_facial_liveness": {
+    "face_match_confidence": "99.4%",
+    "liveness_blink_verified": true,
+    "latency": "0.42s"
+  },
+  "status": "ATTENDANCE_LOGGED_SECURELY"
+}
+```
+</details>
+
+<details>
+<summary><strong>▶ <code>curl -s https://riprlutuk.github.io/api/v1/recruiter-quick-hire</code> (1-Click Dispatch)</strong></summary>
+
+```json
+{
+  "candidate": "Heri Riski Anto (@RiprLutuk)",
+  "executive_title": "Senior DBA & One-Man IT Division Architect",
+  "experience_years": "7+ Years",
+  "availability": "Open for Full-Time (Senior/Lead) & Enterprise Consulting",
+  "work_model": "Remote / Hybrid / On-Site (Jakarta & Tangerang)",
+  "ats_compatibility": "98/100 (Workday, Taleo, Greenhouse)",
+  "dispatch_channel": "https://t.me/riprlutuk"
+}
+```
+</details>
+
+---
+
+## 🚀 Flagship Production Platforms & Repositories
+
+| Project & Dialect | Core Architecture & Highlights | Production Impact |
+| :--- | :--- | :--- |
+| **[⚡ DDAG](https://github.com/RiprLutuk/DDAG)**<br>`Go` `Postgres` `MSSQL` `Oracle` | Zero-Trust Dynamic SQL-to-REST API Gateway. Dynamically exposes multi-engine databases with JWT auth and PgBouncer connection pooling. | **< 2.5ms Latency Overhead**<br>Eliminates linked-server vulnerabilities |
+| **[🔄 ch-olap-pipeline](https://github.com/RiprLutuk/ch-olap-pipeline)**<br>`Debezium` `Kafka` `ClickHouse` | Universal Real-Time CDC streaming pipeline capturing OLTP mutation logs into ClickHouse columnar storage for real-time analytics. | **33.3 GB/s Ingestion**<br>Sub-second reporting over 50M+ rows |
+| **[🏛️ OpenOrg](https://github.com/RiprLutuk/openorg)**<br>`TypeScript` `Headless CMS` `KTA` | Single-tenant organization governance platform with digital membership ID (KTA), SKP credentialing, and cryptographic SHA-256 certificate validation. | **Tamper-Resistant**<br>Institutional governance hierarchy |
+| **[🏡 WargaHub](https://github.com/RiprLutuk/WargaHub)**<br>`Vue 3 PWA` `Fastify` `PGlite WASM` | Civic governance, transparent budget ledger, and digital musyawarah consensus powered by embedded offline-capable WASM PostgreSQL. | **0.4ms WASM Queries**<br>100% Offline PWA ledger sync |
+| **[📍 PasPapan](https://github.com/RiprLutuk/PasPapan)**<br>`Laravel 11` `Livewire` `Face ID` | Enterprise workforce operations with Anti-Mock GPS spoof detection, Face ID biometric attendance, and automated 1-click payroll calculation. | **0.00% Spoof Detected**<br>Multi-branch payroll automation |
+| **[🔄 pg2ora-cdc](https://github.com/RiprLutuk/pg2ora_debezium_kafka)**<br>`Debezium` `Postgres` `Oracle 19c` | High-availability CDC integration synchronizing real-time financial ledger mutations from PostgreSQL to Oracle Database 19c with DLQ replay. | **0-Lag Sync**<br>Continuous WAL-to-Redo replication |
+
+---
+
+## 🌐 Live Diagnostic Lab & Interactive Sandbox on Website
+
+Visit the flagship interactive website at **[riprlutuk.github.io](https://riprlutuk.github.io)** to test:
+
+* 🔬 **[DBA Diagnostic Lab](https://riprlutuk.github.io/#dba-lab):** Run real EXPLAIN ANALYZE comparison drills across 10M rows and trigger automated SRE failover scenarios.
+* 💰 **[Cloud ROI Calculator](https://riprlutuk.github.io/#roi-calculator):** Estimate infrastructure savings with instant 1-click presets (Enterprise Migration, Fintech Scaling, 0-to-1 MVP).
+* 🎯 **[Recruiter Persona Switcher](https://riprlutuk.github.io):** Toggle tailored mission briefings for Tech Recruiters, Startup Founders, and Enterprise VPs.
+* 💻 **[Cyber CLI Terminal](https://riprlutuk.github.io):** Press `Ctrl+K` on any page to open the interactive UNIX CLI shell (`neofetch`, `psql`, `migrations`, `mobile`, `ats`).
 
 ---
 
@@ -124,6 +219,6 @@ Explore live diagnostic simulations and tools on **[riprlutuk.github.io](https:/
 "Architecting resilient systems that scale silently, operate securely, and never lose a single byte of data."
 ```
 
-**Let's connect:** [Telegram (@riprlutuk)](https://t.me/riprlutuk) • [LinkedIn](https://linkedin.com/in/riprlutuk) • [Email](mailto:rizqy.pra85@gmail.com) • [Website](https://riprlutuk.github.io)
+**[Telegram (@riprlutuk)](https://t.me/riprlutuk)** • **[LinkedIn](https://linkedin.com/in/riprlutuk)** • **[Email](mailto:rizqy.pra85@gmail.com)** • **[Interactive Portfolio](https://riprlutuk.github.io)**
 
 </div>
